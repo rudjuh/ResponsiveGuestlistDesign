@@ -12,86 +12,126 @@ include 'header.php';
 						<p style="font-size: 12px" >London, UK</p>
 						
 						<ul>
-							<li class="selected" >ALL EVENTS</li>
-							<li>YOUR EVENTS</li>
+							<li class="guest-lists-button selected">ALL EVENTS</li>
+							<li class="your-events-button">YOUR EVENTS</li>
 							<li>PROFILE</li>
 						</ul>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-9 col-xs-9">
-                    <div class="gl-events-top">
-                        <span>Guest listed events</span>
-                    </div>
+            <div class="col-md-9 col-xs-9 guest-lists">
+                <div class="gl-events-top">
+                    <span>Guest listed events</span>
+                </div>
 
-                    <div class="event-arrow-left event-box-arrow"><span class="arrow-left"></span></div>
-                    <div class="event-arrow-right event-box-arrow"><span class="arrow-right"></span></div>
+                <div class="event-arrow-left event-box-arrow"><span class="arrow-left"></span></div>
+                <div class="event-arrow-right event-box-arrow"><span class="arrow-right"></span></div>
 
-                    <div class="gl-events-wrapper">
-                        <div class="gl-events">
+                <div class="gl-events-wrapper">
+                    <div class="gl-events">
 
-                            <div class="gl-events-box">
-                                <div class="gl-event">
-                                    <img class="account-event-img"
-                                         src="http://4.static.newspaper.guestlistmedia.net/uploads/events/16/624_medium.jpg"
-                                         alt="read news" width="100%" height="100%" style="opacity: 1;">
+                        <div class="gl-events-box">
+                            <div class="gl-event">
+                                <img class="account-event-img"
+                                     src="http://4.static.newspaper.guestlistmedia.net/uploads/events/16/624_medium.jpg"
+                                     alt="read news" width="100%" height="100%" style="opacity: 1;">
 
-                                    <div class="gl-event-content">
-                                        <h2>Sunscape Festival</h2>
+                                <div class="gl-event-content">
+                                    <h2>Sunscape Festival</h2>
 
-                                        <h3>Ramla Bay, Gozo</h3>
-                                    </div>
+                                    <h3>Ramla Bay, Gozo</h3>
                                 </div>
-                                <div class="gl-event">
-                                    <img class="account-event-img"
-                                         src="http://4.static.newspaper.guestlistmedia.net/uploads/events/16/624_medium.jpg"
-                                         alt="read news" width="100%" height="100%" style="opacity: 1;">
-
-                                    <div class="gl-event-content">
-                                        <h2>Sunscape Festival</h2>
-
-                                        <h3>Ramla Bay, Gozo</h3>
-                                    </div>
-                                </div>
-                                <div class="gl-event">
-                                    <img class="account-event-img"
-                                         src="http://4.static.newspaper.guestlistmedia.net/uploads/events/16/624_medium.jpg"
-                                         alt="read news" width="100%" height="100%" style="opacity: 1;">
-
-                                    <div class="gl-event-content">
-                                        <h2>Sunscape Festival</h2>
-
-                                        <h3>Ramla Bay, Gozo</h3>
-                                    </div>
-                                </div>
-                                <div class="gl-event">
-                                    <img class="account-event-img"
-                                         src="http://4.static.newspaper.guestlistmedia.net/uploads/events/16/624_medium.jpg"
-                                         alt="read news" width="100%" height="100%" style="opacity: 1;">
-
-                                    <div class="gl-event-content">
-                                        <h2>Sunscape Festival</h2>
-
-                                        <h3>Ramla Bay, Gozo</h3>
-                                    </div>
-                                </div>
-                                <div class="gl-event">
-                                    <img class="account-event-img"
-                                         src="http://4.static.newspaper.guestlistmedia.net/uploads/events/16/624_medium.jpg"
-                                         alt="read news" width="100%" height="100%" style="opacity: 1;">
-
-                                    <div class="gl-event-content">
-                                        <h2>Sunscape Festival</h2>
-
-                                        <h3>Ramla Bay, Gozo</h3>
-                                    </div>
-                                </div>
-                                <br class="clr"/>
                             </div>
+                            <div class="gl-event">
+                                <img class="account-event-img"
+                                     src="http://4.static.newspaper.guestlistmedia.net/uploads/events/16/624_medium.jpg"
+                                     alt="read news" width="100%" height="100%" style="opacity: 1;">
+
+                                <div class="gl-event-content">
+                                    <h2>Sunscape Festival</h2>
+
+                                    <h3>Ramla Bay, Gozo</h3>
+                                </div>
+                            </div>
+                            <div class="gl-event">
+                                <img class="account-event-img"
+                                     src="http://4.static.newspaper.guestlistmedia.net/uploads/events/16/624_medium.jpg"
+                                     alt="read news" width="100%" height="100%" style="opacity: 1;">
+
+                                <div class="gl-event-content">
+                                    <h2>Sunscape Festival</h2>
+
+                                    <h3>Ramla Bay, Gozo</h3>
+                                </div>
+                            </div>
+                            <div class="gl-event">
+                                <img class="account-event-img"
+                                     src="http://4.static.newspaper.guestlistmedia.net/uploads/events/16/624_medium.jpg"
+                                     alt="read news" width="100%" height="100%" style="opacity: 1;">
+
+                                <div class="gl-event-content">
+                                    <h2>Sunscape Festival</h2>
+
+                                    <h3>Ramla Bay, Gozo</h3>
+                                </div>
+                            </div>
+                            <div class="gl-event">
+                                <img class="account-event-img"
+                                     src="http://4.static.newspaper.guestlistmedia.net/uploads/events/16/624_medium.jpg"
+                                     alt="read news" width="100%" height="100%" style="opacity: 1;">
+
+                                <div class="gl-event-content">
+                                    <h2>Sunscape Festival</h2>
+
+                                    <h3>Ramla Bay, Gozo</h3>
+                                </div>
+                            </div>
+                            <br class="clr"/>
                         </div>
                     </div>
-
                 </div>
+
+            </div>
+            <div class="col-md-9 col-xs-9 your-events hidden">
+                <div class="gl-events-top">
+                    <span>Your events</span>
+                </div>
+
+                <div class="event-arrow-left event-box-arrow"><span class="arrow-left"></span></div>
+                <div class="event-arrow-right event-box-arrow"><span class="arrow-right"></span></div>
+
+                <div class="gl-events-wrapper">
+                    <div class="gl-events2">
+
+                        <div class="gl-events-box2">
+                            <div class="gl-event-two">
+                                <img class="account-event-img"
+                                     src="http://4.static.newspaper.guestlistmedia.net/uploads/events/16/624_medium.jpg"
+                                     alt="read news" width="100%" height="100%" style="opacity: 1;">
+
+                                <div class="gl-event-content">
+                                    <h2>Sunscape Festival</h2>
+
+                                    <h3>Ramla Bay, Gozo</h3>
+                                </div>
+                            </div>
+                            <div class="gl-event-two">
+                                <img class="account-event-img"
+                                     src="http://4.static.newspaper.guestlistmedia.net/uploads/events/16/624_medium.jpg"
+                                     alt="read news" width="100%" height="100%" style="opacity: 1;">
+
+                                <div class="gl-event-content">
+                                    <h2>Sunscape Festival</h2>
+
+                                    <h3>Ramla Bay, Gozo</h3>
+                                </div>
+                            </div>
+                            <br class="clr"/>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
 		</div>
 	</div>
 </div>

@@ -312,7 +312,7 @@ a:hover, a:focus{
 		margin-top: 119px;
 		display: inline-block;
 	}
-	.gl-event{
+	.gl-event, .gl-event-two {
 		width: 170px;
 		height: 250px;
 		float: left;
