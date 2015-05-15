@@ -183,7 +183,7 @@ include 'header.php';
 		
 	</div>
 	<div class="col-md-4 col-xs-12">
-		<div class="col-md-12 col-xs-6">
+		<div class="col-md-12 col-xs-8">
 			<div style="min-height:400px;">
 				<div class="news-menu-right-title">
 					<h3>
@@ -198,7 +198,7 @@ include 'header.php';
 							<figure>
 								<a class="clearfix" href="">
 									<div class="articleItemListElementImgContainer">
-										<img src="http://0.static.newspaper.guestlistmedia.net/uploads/articles/11/750_smallsquare.jpg" alt=""  class="imgb" width="100%" height="100%" />
+										<img src="http://0.static.newspaper.guestlistmedia.net/uploads/articles/11/750_smallsquare.jpg" alt=""  class="imgb" width="100%" height="" />
 									</div>
 									<figcaption class="easeInOutAll200 ">
 										<h4 class="articleItemListElementContent">'They could stop the...</h4>
@@ -212,7 +212,7 @@ include 'header.php';
 							<figure>
 								<a class="clearfix" href="">
 									<div class="articleItemListElementImgContainer">
-										<img src="http://0.static.newspaper.guestlistmedia.net/uploads/articles/11/750_smallsquare.jpg" alt=""  class="imgb" width="100%" height="100%" />
+										<img src="http://0.static.newspaper.guestlistmedia.net/uploads/articles/11/750_smallsquare.jpg" alt=""  class="imgb" width="100%" height="" />
 									</div>
 									<figcaption class="easeInOutAll200 ">
 										<h4 class="articleItemListElementContent">'They could stop the...</h4>
@@ -226,7 +226,7 @@ include 'header.php';
 							<figure>
 								<a class="clearfix" href="">
 									<div class="articleItemListElementImgContainer">
-										<img src="http://0.static.newspaper.guestlistmedia.net/uploads/articles/11/750_smallsquare.jpg" alt=""  class="imgb" width="100%" height="100%" />
+										<img src="http://0.static.newspaper.guestlistmedia.net/uploads/articles/11/750_smallsquare.jpg" alt=""  class="imgb" width="100%" height="" />
 									</div>
 									<figcaption class="easeInOutAll200 ">
 										<h4 class="articleItemListElementContent">'They could stop the...</h4>
@@ -240,7 +240,7 @@ include 'header.php';
 				</div>
 			</div>
 		</div>
-		<div class="col-md-12 col-xs-6">
+		<div class="col-md-12 col-xs-4">
 			<div class="news-flash">
 				<span class=active-news-title>NEWSFLASH</span>
 			
