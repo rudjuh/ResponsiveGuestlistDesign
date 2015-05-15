@@ -283,10 +283,24 @@ include 'header.php';
 		<div class="col-md-12 col-xs-4">
 			<div class="news-flash">
 				<span class=active-news-title>NEWSFLASH</span>
-			
+				<ul class="flash-list flash-list0" id="flash-list-0">
+					<li class="news_flash_first">
+						<a href="">
+							<div>
+								<div class="flash-img">
+									<img src="" width="250px"/>
+								</div>
+								<h4></h4>
+							</div>
+						</a>
+						<br class="clr" />
+					</li>
+				</ul>
+				<ul class="news-flash-menu">
+					<li class="" id=""></li>
+				</ul>
 			</div>
 		</div>
-
 	</div>
 
 </div>
