@@ -24,11 +24,9 @@
 					<span>Guest listed events</span>
 				</div>
 					<span class="arrow-left" ></span>
-				
 				<span class="arrow-right" ></span>
 				<div class="gl-events-wrapper">
 					<div class="gl-events">
-					
 						<div class="gl-events-box">
 													<div class="gl-event">
 								<img class="account-event-img" src="http://4.static.newspaper.guestlistmedia.net/uploads/events/16/624_medium.jpg" alt="read news" width="100%" height="100%" style="opacity: 1;">
@@ -143,36 +141,43 @@
 		</div>
 		
 	</div>
-	
 	<div class="col-md-4 col-xs-12">
-		<div style="min-height:400px;">
-			<div class="news-menu-right-title">
-				<h3>
-					<a href="javascript:void(0)" class="active-news-title featured-title">FEATURED</a>
-						&nbsp;/&nbsp; <a href="javascript:void(0)" class="popular-title">HOT</a>  &nbsp;/&nbsp; <a href="javascript:void(0)" class="new-title">NEW</a>
-				</h3>
-				<br class="clr" />
-			</div>
-			<div class="news-menu-right-options">
-				<ul>
-					<li class="articleItemListElement easeInOutAll200">
-						<figure>
-							<a class="clearfix" href="">
-								<div class="articleItemListElementImgContainer">
-									<img src="http://0.static.newspaper.guestlistmedia.net/uploads/articles/11/750_smallsquare.jpg" alt=""  class="imgb" width="100%" height="100%" />
-								</div>
-								<figcaption class="easeInOutAll200 ">
-									<h4 class="articleItemListElementContent">'They could stop the...</h4>
-									<a class="articleItemListElementContentText">The man that many claim invented...</a>
-								</figcaption>
-								<br class="clr" />
-							</a>
-						</figure>
-					</li>
-				</ul>
+		<div class="col-md-12 col-xs-6">
+			<div style="min-height:400px;">
+				<div class="news-menu-right-title">
+					<h3>
+						<a href="javascript:void(0)" class="active-news-title featured-title">FEATURED</a>
+							&nbsp;/&nbsp; <a href="javascript:void(0)" class="popular-title">HOT</a>  &nbsp;/&nbsp; <a href="javascript:void(0)" class="new-title">NEW</a>
+					</h3>
+					<br class="clr" />
+				</div>
+				<div class="news-menu-right-options">
+					<ul>
+						<li class="articleItemListElement easeInOutAll200">
+							<figure>
+								<a class="clearfix" href="">
+									<div class="articleItemListElementImgContainer">
+										<img src="http://0.static.newspaper.guestlistmedia.net/uploads/articles/11/750_smallsquare.jpg" alt=""  class="imgb" width="100%" height="100%" />
+									</div>
+									<figcaption class="easeInOutAll200 ">
+										<h4 class="articleItemListElementContent">'They could stop the...</h4>
+										<a class="articleItemListElementContentText">The man that many claim invented...</a>
+									</figcaption>
+									<br class="clr" />
+								</a>
+							</figure>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
-		
+		<div class="col-md-12 col-xs-6">
+			<div class="news-flash">
+				<span class=active-news-title>NEWSFLASH</span>
+			
+			</div>
+		</div>
+
 	</div>
 
 </div>
