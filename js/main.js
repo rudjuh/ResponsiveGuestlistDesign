@@ -45,7 +45,7 @@ var actions = {
         }
     },
     loopT: function () {
-        if ($('.gl-events-box').css('margin-left').replace('px', '').replace('-', '') < (newWidth - 621)) {
+        if ($('.gl-events-box').css('margin-left').replace('px', '').replace('-', '') < (newWidth - $('.gl-events').width())) {
             $content.stop().animate({marginLeft: '-=20'}, speed, 'linear', actions.loopT);
         }
     },
@@ -60,6 +60,18 @@ var init = {
 
         $(window).scroll(actions.scrollBar);
         $(window).bind('resize', actions.resizer);
+        $('.your-events-button').click(function() {
+            $(this).addClass('selected');
+            $('.guest-lists-button').removeClass('selected');
+            $('.guest-lists').addClass('hidden');
+            $('.your-events').removeClass('hidden');
+        });
+        $('.guest-lists-button').click(function() {
+            $(this).addClass('selected');
+            $('.your-events-button').removeClass('selected');
+            $('.your-events').addClass('hidden');
+            $('.guest-lists').removeClass('hidden');
+        });
 
         this.eventBoxEvents();
     },
