@@ -9,7 +9,6 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-	<link type="text/css" media='(max-width: 795px)' rel='stylesheet' href='css/mobile.css' />
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
 
@@ -36,11 +35,7 @@
 					  <div class="forget">(forgot ?)</div>
 					</a>
 				</div>
-				<button id="loginbtn" type="submit">
-					<div id="loginbtnContent">Login</div>
-					<div id="loginbtnLoading" class="loginLoading"></div>
-				</button>
-
+				<button id="loginbtn" type="submit">Login</button>
 			</form>				
 			<ul>
 				<li>|</li>
