@@ -23,8 +23,12 @@
 				<div class="gl-events-top">
 					<span>Guest listed events</span>
 				</div>
+					<span class="arrow-left" ></span>
+				
+				<span class="arrow-right" ></span>
 				<div class="gl-events-wrapper">
 					<div class="gl-events">
+					
 						<div class="gl-events-box">
 													<div class="gl-event">
 								<img class="account-event-img" src="http://4.static.newspaper.guestlistmedia.net/uploads/events/16/624_medium.jpg" alt="read news" width="100%" height="100%" style="opacity: 1;">
@@ -63,9 +67,9 @@
 							</div>
 							<br class="clr" />
 						</div>
-
 					</div>
 				</div>
+				
 			</div>
 		</div>
 	</div>

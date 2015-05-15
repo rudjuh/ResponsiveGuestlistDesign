@@ -285,6 +285,26 @@ a:hover, a:focus{
 		margin-left: 0px;
 		height: 320px;
 	}
+	span.arrow-left{
+		background: url('../images/next-arrow.png');
+		float: left;
+		margin-top: 115px;
+		height: 33px;
+		width: 20px;
+		-webkit-transform: rotate(180deg);
+		display: inline-block
+	}
+	span.arrow-right{
+		background: url('../images/next-arrow.png');
+		background-repeat: no-repeat;
+		float: right;
+		height: 287px;
+		right: 17px;
+		padding-top: 212px;
+		width: 20px;
+		margin-top: 119px;
+		display: inline-block;
+	}
 	.gl-event{
 		width: 170px;
 		height: 250px;
