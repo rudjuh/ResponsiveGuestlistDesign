@@ -19,7 +19,54 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-9 col-xs-9"></div>
+			<div class="col-md-9 col-xs-9">
+				<div class="gl-events-top">
+					<span>Guest listed events</span>
+				</div>
+				<div class="gl-events-wrapper">
+					<div class="gl-events">
+						<div class="gl-events-box">
+													<div class="gl-event">
+								<img class="account-event-img" src="http://4.static.newspaper.guestlistmedia.net/uploads/events/16/624_medium.jpg" alt="read news" width="100%" height="100%" style="opacity: 1;">
+								<div class="gl-event-content">
+									<h2>Sunscape Festival</h2>
+									<h3>Ramla Bay, Gozo</h3>
+								</div>
+							</div>
+							<div class="gl-event">
+								<img class="account-event-img" src="http://4.static.newspaper.guestlistmedia.net/uploads/events/16/624_medium.jpg" alt="read news" width="100%" height="100%" style="opacity: 1;">
+								<div class="gl-event-content">
+									<h2>Sunscape Festival</h2>
+									<h3>Ramla Bay, Gozo</h3>
+								</div>
+							</div>
+													<div class="gl-event">
+								<img class="account-event-img" src="http://4.static.newspaper.guestlistmedia.net/uploads/events/16/624_medium.jpg" alt="read news" width="100%" height="100%" style="opacity: 1;">
+								<div class="gl-event-content">
+									<h2>Sunscape Festival</h2>
+									<h3>Ramla Bay, Gozo</h3>
+								</div>
+							</div>
+													<div class="gl-event">
+								<img class="account-event-img" src="http://4.static.newspaper.guestlistmedia.net/uploads/events/16/624_medium.jpg" alt="read news" width="100%" height="100%" style="opacity: 1;">
+								<div class="gl-event-content">
+									<h2>Sunscape Festival</h2>
+									<h3>Ramla Bay, Gozo</h3>
+								</div>
+							</div>
+													<div class="gl-event">
+								<img class="account-event-img" src="http://4.static.newspaper.guestlistmedia.net/uploads/events/16/624_medium.jpg" alt="read news" width="100%" height="100%" style="opacity: 1;">
+								<div class="gl-event-content">
+									<h2>Sunscape Festival</h2>
+									<h3>Ramla Bay, Gozo</h3>
+								</div>
+							</div>
+							<br class="clr" />
+						</div>
+
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
@@ -99,7 +146,8 @@
 				<h3>
 					<a href="javascript:void(0)" class="active-news-title featured-title">FEATURED</a>
 						&nbsp;/&nbsp; <a href="javascript:void(0)" class="popular-title">HOT</a>  &nbsp;/&nbsp; <a href="javascript:void(0)" class="new-title">NEW</a>
-				</h3><br class="clr" />
+				</h3>
+				<br class="clr" />
 			</div>
 			<div class="news-menu-right-options">
 				<ul>
@@ -113,12 +161,14 @@
 									<h4 class="articleItemListElementContent">'They could stop the...</h4>
 									<a class="articleItemListElementContentText">The man that many claim invented...</a>
 								</figcaption>
+								<br class="clr" />
 							</a>
 						</figure>
 					</li>
 				</ul>
 			</div>
 		</div>
+		
 	</div>
 
 </div>
