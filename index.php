@@ -127,6 +127,24 @@
 												<p>The "Birthplace of British cinema" has been restored to its former glory.</p>
 											</div>
 										</li>
+																				<li class="readNewsBox">
+											<div style="overflow:hidden;width:135px;margin-left:20px;">
+												<a href="" alt="" width="135"><img src="http://guestlist.net/uploads/articles/2015/05/87747.png" /></a>
+											</div>
+											<div class="articles-content">
+												<p><a href="">ShowMango sorts out your summer</a></p>
+												<!--<img src="/images/news/facebook.jpg" alt="facebook" width="22" height="21">
+												<img class="twitterLogo" src="/images/news/twitter.jpg" alt="twitter" width="22" height="21">-->
+												<p class='article-author'>
+													By <a href=''>
+													Christina Dean -  
+													</a>
+													<a class='article-date'>12 May, 2015 </a>
+												</p>
+												 
+												<p>The "Birthplace of British cinema" has been restored to its former glory.</p>
+											</div>
+										</li>
 									</ul>
 								</li><!--readNewsCellRight-->
 							</ul><!--readNewsRow-->
@@ -154,6 +172,34 @@
 				<div class="news-menu-right-options">
 					<ul>
 						<li class="articleItemListElement easeInOutAll200">
+							<figure>
+								<a class="clearfix" href="">
+									<div class="articleItemListElementImgContainer">
+										<img src="http://0.static.newspaper.guestlistmedia.net/uploads/articles/11/750_smallsquare.jpg" alt=""  class="imgb" width="100%" height="100%" />
+									</div>
+									<figcaption class="easeInOutAll200 ">
+										<h4 class="articleItemListElementContent">'They could stop the...</h4>
+										<a class="articleItemListElementContentText">The man that many claim invented...</a>
+									</figcaption>
+									<br class="clr" />
+								</a>
+							</figure>
+						</li>
+												<li class="articleItemListElement easeInOutAll200">
+							<figure>
+								<a class="clearfix" href="">
+									<div class="articleItemListElementImgContainer">
+										<img src="http://0.static.newspaper.guestlistmedia.net/uploads/articles/11/750_smallsquare.jpg" alt=""  class="imgb" width="100%" height="100%" />
+									</div>
+									<figcaption class="easeInOutAll200 ">
+										<h4 class="articleItemListElementContent">'They could stop the...</h4>
+										<a class="articleItemListElementContentText">The man that many claim invented...</a>
+									</figcaption>
+									<br class="clr" />
+								</a>
+							</figure>
+						</li>
+												<li class="articleItemListElement easeInOutAll200">
 							<figure>
 								<a class="clearfix" href="">
 									<div class="articleItemListElementImgContainer">
