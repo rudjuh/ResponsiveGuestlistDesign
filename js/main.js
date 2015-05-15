@@ -14,7 +14,7 @@ var actions = {
         }
     },
     resizer: function() {
-        /*window.resizeEvt;
+        window.resizeEvt;
         $(window).resize(function() {
             clearTimeout(window.resizeEvt);
             window.resizeEvt = setTimeout(function(){
@@ -37,7 +37,7 @@ var actions = {
                     //$('.top-menu-wrapper').css("display", "block");
                 }
             }, 250);
-        });*/
+        });
     },
     loopO: function () {
         if ($('.gl-events-box').css('margin-left').replace('px', '') <= '0') {
