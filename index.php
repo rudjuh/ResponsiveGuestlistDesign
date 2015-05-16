@@ -208,6 +208,42 @@ include 'header.php';
 												<p>The "Birthplace of British cinema" has been restored to its former glory.</p>
 											</div>
 										</li>
+																														<li class="readNewsBox">
+											<div style="overflow:hidden;width:135px;margin-left:20px;">
+												<a href="" alt="" width="135"><img src="http://guestlist.net/uploads/articles/2015/05/87747.png" /></a>
+											</div>
+											<div class="articles-content">
+												<p><a href="">ShowMango sorts out your summer</a></p>
+												<!--<img src="/images/news/facebook.jpg" alt="facebook" width="22" height="21">
+												<img class="twitterLogo" src="/images/news/twitter.jpg" alt="twitter" width="22" height="21">-->
+												<p class='article-author'>
+													By <a href=''>
+													Christina Dean -  
+													</a>
+													<a class='article-date'>12 May, 2015 </a>
+												</p>
+												 
+												<p>Glitterbox has revealed full weekly line-ups at Space Ibiza, alongside collaborations with iconic artist TradeMark, club performance collective “Savage” and award-winning creative director Mark Herman.  </p>
+											</div>
+										</li>
+																														<li class="readNewsBox">
+											<div style="overflow:hidden;width:135px;margin-left:20px;">
+												<a href="" alt="" width="135"><img src="http://guestlist.net/uploads/articles/2015/05/87747.png" /></a>
+											</div>
+											<div class="articles-content">
+												<p><a href="">ShowMango sorts out your summer</a></p>
+												<!--<img src="/images/news/facebook.jpg" alt="facebook" width="22" height="21">
+												<img class="twitterLogo" src="/images/news/twitter.jpg" alt="twitter" width="22" height="21">-->
+												<p class='article-author'>
+													By <a href=''>
+													Christina Dean -  
+													</a>
+													<a class='article-date'>12 May, 2015 </a>
+												</p>
+												 
+												<p>The "Birthplace of British cinema" has been restored to its former glory.</p>
+											</div>
+										</li>
 									</ul>
 								</li><!--readNewsCellRight-->
 							</ul><!--readNewsRow-->
@@ -276,6 +312,34 @@ include 'header.php';
 								</a>
 							</figure>
 						</li>
+																		<li class="articleItemListElement easeInOutAll200">
+							<figure>
+								<a class="clearfix" href="">
+									<div class="articleItemListElementImgContainer">
+										<img src="http://0.static.newspaper.guestlistmedia.net/uploads/articles/11/750_smallsquare.jpg" alt=""  class="imgb" width="100%" height="" />
+									</div>
+									<figcaption class="easeInOutAll200 ">
+										<h4 class="articleItemListElementContent">'They could stop the...</h4>
+										<a class="articleItemListElementContentText">The man that many claim invented...</a>
+									</figcaption>
+									<br class="clr" />
+								</a>
+							</figure>
+						</li>
+																		<li class="articleItemListElement easeInOutAll200">
+							<figure>
+								<a class="clearfix" href="">
+									<div class="articleItemListElementImgContainer">
+										<img src="http://0.static.newspaper.guestlistmedia.net/uploads/articles/11/750_smallsquare.jpg" alt=""  class="imgb" width="100%" height="" />
+									</div>
+									<figcaption class="easeInOutAll200 ">
+										<h4 class="articleItemListElementContent">'They could stop the...</h4>
+										<a class="articleItemListElementContentText">The man that many claim invented...</a>
+									</figcaption>
+									<br class="clr" />
+								</a>
+							</figure>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -288,9 +352,31 @@ include 'header.php';
 						<a href="">
 							<div>
 								<div class="flash-img">
-									<img src="" width="250px"/>
+									<img src="http://guestlist.net/uploads/articles/2015/05/87754.jpg" width="100%"/>
 								</div>
-								<h4></h4>
+								<h4>FREE CULTURAL ACTIVITIES...</h4>
+							</div>
+						</a>
+						<br class="clr" />
+					</li>
+					<li class="news_flash_first">
+						<a href="">
+							<div>
+								<div class="flash-img">
+									<img src="http://guestlist.net/uploads/articles/2015/05/87754.jpg" width="100%"/>
+								</div>
+								<h4>FREE CULTURAL ACTIVITIES...</h4>
+							</div>
+						</a>
+						<br class="clr" />
+					</li>
+					<li class="news_flash_first">
+						<a href="">
+							<div>
+								<div class="flash-img">
+									<img src="http://guestlist.net/uploads/articles/2015/05/87754.jpg" width="100%"/>
+								</div>
+								<h4>FREE CULTURAL ACTIVITIES...</h4>
 							</div>
 						</a>
 						<br class="clr" />

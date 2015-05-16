@@ -196,6 +196,7 @@ a:hover, a:focus{
 		height: 330px;
 		width: 700px;
 		overflow: hidden;
+		margin-bottom: 10px;
 	}
 	.readNewsCellLeft a{
 		color: #773D8E;
@@ -229,6 +230,8 @@ a:hover, a:focus{
 	.readNewsTable div p{
 		color: #333333;
 		font-weight: normal;
+		margin-bottom: 0px;
+		font-size: 13px;
 	}
 	.readNewsTable div p a{
 		font-weight: bold;
@@ -246,6 +249,7 @@ a:hover, a:focus{
 	}
 	.readNewsRow a{
 		color: rgb(119, 61, 142);
+		font-weight: 600;
 	}
 	.articles-content p a{
 		font-size: 20px;
@@ -254,7 +258,7 @@ a:hover, a:focus{
 	.article-author{
 		display: block;
 		width: 100%;
-		margin-bottom: 2px;
+		margin-bottom: 5px!important;
 		color: #989898 !important;
 		font-weight: normal;
 		font-style: italic;
@@ -363,6 +367,28 @@ a:hover, a:focus{
 	.news-flash .active-news-title{
 		font-size: 20px;
 		font-weight: bold;
+		display: block;
+		margin-bottom: 20px;
+	}
+	.flash-list{
+		width: 100%;
+	}
+	.news_flash_first{
+		border-bottom: 1px solid #DDDDDD;
+		text-align: center;
+		margin-bottom: 16px;
+	}
+	.flash-img {
+		height: 160px;
+		overflow: hidden;
+		margin-bottom: -15px;
+	}
+	.news_flash_first h4{
+		line-height: 50px;
+		margin-bottom: -24px;
+		font-size: 16px;
+		color: #773D8E;
+		font-weight: 600;
 	}
 
 }
@@ -564,7 +590,7 @@ a:hover, a:focus{
 	.articleItemListElement{
 		margin-bottom: 10px;
 		border-bottom: 1px solid #DDDDDD;
-		padding-bottom: 15px;
+		padding-bottom: 7px;
 	}
 	.articleItemListElement figcaption{
 		width: 180px;
@@ -572,9 +598,10 @@ a:hover, a:focus{
 	}
 	.articleItemListElementImgContainer{
 		width: 	70px;
-		height:	60px;
+		height:	58px;
 		float:	left;
-		margin-right: 20px
+		margin-right: 20px;
+		overflow: hidden;
 	}
 	.articleItemListElement a{
 		float: left;
@@ -678,6 +705,21 @@ a:hover, a:focus{
 		font-size: 19px;
 		font-weight: 600;
 		text-overflow: ellipsis;
+	}
+	.news-flash .active-news-title{
+		margin-bottom: 50px;
+	}
+	.flash-img {
+		height: 60%;
+	}
+	.readNewsBox div{
+		width: 65%;
+	}
+	.readNewsBox p{
+		width: 100%;
+	}
+	.news_flash_first h4{
+		font-size: 13px;
 	}
 	
 }
