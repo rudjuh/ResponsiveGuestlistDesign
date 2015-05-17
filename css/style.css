@@ -41,6 +41,9 @@ a:hover, a:focus{
 	margin: 0;
 	padding: 0;
 }
+div#mini_share{
+	display: none!important;
+}
 .header-wrapper {
 	background-color: white;
 	padding-top: 40px;
@@ -396,9 +399,10 @@ a:hover, a:focus{
 		display: block;
 		margin-bottom: 20px;
 		color: black;
-		padding-left: 10px;
-		width: 55%;
+		padding-left: 17px;
+		width: 100%;
 		float: left;
+		border-bottom: 1px solid #DDDDDD;
 	}
 	span.more{
 		height: 0px;
@@ -416,6 +420,9 @@ a:hover, a:focus{
 
 }
 @media screen and (min-width:992px) {
+div#mini_share {
+  display: none;
+}
 	.header-wrapper {
 		background-color: white;
 		padding-top: 40px;
@@ -661,6 +668,13 @@ a:hover, a:focus{
 	
 }
 @media screen and (max-width:992px) {
+	.row.content{
+		margin-bottom: 35px;
+	}
+	span.title{
+		width: 69%;
+		border: none;
+	}
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form{
 	  background-color: #333333;
 	  margin-top: 50px;
@@ -763,7 +777,7 @@ a:hover, a:focus{
 		float: left;
 		margin-left: 5px;
 		margin-right: 5px;
-		width: 46%;
+		width: 31%;
 		margin-bottom: 13px;
 	}
 	.newspaper-single h3{

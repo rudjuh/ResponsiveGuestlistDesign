@@ -391,12 +391,13 @@ include 'header.php';
 		</div>		
 	</div>
 	<div class="row content">
-		<div class="col-md-8 col-xs-8">
+		<div class="col-md-8 col-xs-12">
 			<div class="newspaper visible-md">
+				<span class=title>NEWSPAPER - ISSUE 63</span>
 				<iframe class="newspaper-iframe" src="http://read.uberflip.com/read/embed_mini/12688/396481?miniPop=false&alwaysCover=false&miniTitle=&miniColor=&miniLinkToTitle=true&miniUrl=&miniBg=FFFFFF&hideBg=false&width=570&height=400&sharing=false"></iframe>
 			</div>
+			<span class="title hidden-md">NEWSPAPERS</span><span style="margin-right: 30px;" class="more hidden-md">MORE</span>
 			<div class="newspapers hidden-md">
-				<span class=title>NEWSPAPERS</span><span style="margin-right: 30px;" class="more">MORE</span>
 				<div class="newspaper-single">
 					<a target="_blank" href=""><img class="img-responsive" src="http://1.static.newspaper.guestlistmedia.net/uploads/newspapers/0/171_mediumposter.jpg"></a>
 					<h3>ISSUE 63</h3>
@@ -408,15 +409,21 @@ include 'header.php';
 				<div class="newspaper-single">
 					<a target="_blank" href=""><img class="img-responsive" src="http://1.static.newspaper.guestlistmedia.net/uploads/newspapers/0/171_mediumposter.jpg"></a>
 					<h3>ISSUE 63</h3>
-				</div>
-				<div class="newspaper-single">
-					<a target="_blank" href=""><img class="img-responsive" src="http://1.static.newspaper.guestlistmedia.net/uploads/newspapers/0/171_mediumposter.jpg"></a>
-					<h3>ISSUE 63</h3>
-				</div>				
+				</div>			
 			</div>
 		</div>
-		<div class="col-md-4 col-xs-8">
-		
+		<div class="col-md-4 col-xs-4">
+			<span class=title>TWITTER</span>
+			<div class="twitter">
+				<ul class="tweets">
+					<a href="http://www.twitter.com/guestlistdotnet" target="_blank"><img src="http://guestlist.net/images/newhome/twitter_icon.png"></img></a>
+					<!-- TWEETS WILL BE LOADED IN HERE AS LI-ELEMENT -->
+				</ul>
+
+				<a href="https://twitter.com/guestlistdotnet" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @guestlistdotnet</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+			</div>
 		</div>
 	</div>
 
