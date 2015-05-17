@@ -136,258 +136,290 @@ include 'header.php';
 	</div>
 </div>
 <div class="row content-container">
-	<div class="col-md-8 col-xs-12">
-		<div class="news-menu">
-			<ul>
-				<li class="active"><a href="/news"><span>News</span></a></li>
-				<li><a href="/fashion"><span class="">Fashion</span></a></li>
-				<li><a href="/festivals"><span class="">Festivals</span></a></li>
-				<li><a href="/film"><span class="">Film</span></a></li>
-				<li><a href="/travel"><span class="">Travel</span></a></li>
-			</ul>
-		</div>
-		<div class="loading-section">
-			<div class="loading"></div>
-		</div>
-
-		<div id="articles" class="news-mainsection">
-			<ul id="articleListIndex">
-				<div class="news-mainsection1">
-					<div class="musicevents"><!--READ NEWS Table starts-->
-						<div class="readNewsTable">
-							<ul class="readNewsRow">
-								<li class="readNewsCellLeft">
-									<div>
-										<a href="" alt="read news"/><img src="http://guestlist.net/uploads/articles/2015/05/87699.png" /></a>
-									</div>
-									<h3><a href="">ShowMango sorts out your summer</a></h3>
-										<p class='article-author'>By 
-											<a href=''>	
-												Christina Dean -  
-											</a>
-											<a class='article-date'>12 May, 2015 </a>
-										</p>
-									<p>The "Birthplace of British cinema" has been restored to its former glory.</p>
-								</li><!--readNewsCellLeft-->
-								
-								<li class="readNewsCellRight">
-									<ul>
-										<li class="readNewsBox">
-											<div style="overflow:hidden;width:135px;margin-left:20px;">
-												<a href="" alt="" width="135"><img src="http://guestlist.net/uploads/articles/2015/05/87747.png" /></a>
-											</div>
-											<div class="articles-content">
-												<p><a href="">ShowMango sorts out your summer</a></p>
-												<!--<img src="/images/news/facebook.jpg" alt="facebook" width="22" height="21">
-												<img class="twitterLogo" src="/images/news/twitter.jpg" alt="twitter" width="22" height="21">-->
-												<p class='article-author'>
-													By <a href=''>
-													Christina Dean -  
-													</a>
-													<a class='article-date'>12 May, 2015 </a>
-												</p>
-												 
-												<p>The "Birthplace of British cinema" has been restored to its former glory.</p>
-											</div>
-										</li>
-																				<li class="readNewsBox">
-											<div style="overflow:hidden;width:135px;margin-left:20px;">
-												<a href="" alt="" width="135"><img src="http://guestlist.net/uploads/articles/2015/05/87747.png" /></a>
-											</div>
-											<div class="articles-content">
-												<p><a href="">ShowMango sorts out your summer</a></p>
-												<!--<img src="/images/news/facebook.jpg" alt="facebook" width="22" height="21">
-												<img class="twitterLogo" src="/images/news/twitter.jpg" alt="twitter" width="22" height="21">-->
-												<p class='article-author'>
-													By <a href=''>
-													Christina Dean -  
-													</a>
-													<a class='article-date'>12 May, 2015 </a>
-												</p>
-												 
-												<p>The "Birthplace of British cinema" has been restored to its former glory.</p>
-											</div>
-										</li>
-																														<li class="readNewsBox">
-											<div style="overflow:hidden;width:135px;margin-left:20px;">
-												<a href="" alt="" width="135"><img src="http://guestlist.net/uploads/articles/2015/05/87747.png" /></a>
-											</div>
-											<div class="articles-content">
-												<p><a href="">ShowMango sorts out your summer</a></p>
-												<!--<img src="/images/news/facebook.jpg" alt="facebook" width="22" height="21">
-												<img class="twitterLogo" src="/images/news/twitter.jpg" alt="twitter" width="22" height="21">-->
-												<p class='article-author'>
-													By <a href=''>
-													Christina Dean -  
-													</a>
-													<a class='article-date'>12 May, 2015 </a>
-												</p>
-												 
-												<p>Glitterbox has revealed full weekly line-ups at Space Ibiza, alongside collaborations with iconic artist TradeMark, club performance collective “Savage” and award-winning creative director Mark Herman.  </p>
-											</div>
-										</li>
-																														<li class="readNewsBox">
-											<div style="overflow:hidden;width:135px;margin-left:20px;">
-												<a href="" alt="" width="135"><img src="http://guestlist.net/uploads/articles/2015/05/87747.png" /></a>
-											</div>
-											<div class="articles-content">
-												<p><a href="">ShowMango sorts out your summer</a></p>
-												<!--<img src="/images/news/facebook.jpg" alt="facebook" width="22" height="21">
-												<img class="twitterLogo" src="/images/news/twitter.jpg" alt="twitter" width="22" height="21">-->
-												<p class='article-author'>
-													By <a href=''>
-													Christina Dean -  
-													</a>
-													<a class='article-date'>12 May, 2015 </a>
-												</p>
-												 
-												<p>The "Birthplace of British cinema" has been restored to its former glory.</p>
-											</div>
-										</li>
-									</ul>
-								</li><!--readNewsCellRight-->
-							</ul><!--readNewsRow-->
-						</div><!--readNewsTable-->    
-					</div><!--musicevents-->
-				</div>
-			</ul>
-			<ul id="articleListIndexTemp"> </ul>
-
-			<div id="paging">
+	<div class="row content">
+		<div class="col-md-8 col-xs-12">
+			<div class="news-menu">
+				<ul>
+					<li class="active"><a href="/news"><span>News</span></a></li>
+					<li><a href="/fashion"><span class="">Fashion</span></a></li>
+					<li><a href="/festivals"><span class="">Festivals</span></a></li>
+					<li><a href="/film"><span class="">Film</span></a></li>
+					<li><a href="/travel"><span class="">Travel</span></a></li>
+				</ul>
 			</div>
-		</div>
-		
-	</div>
-	<div class="col-md-4 col-xs-12">
-		<div class="col-md-12 col-xs-8">
-			<div style="min-height:400px;">
-				<div class="news-menu-right-title">
-					<h3>
-						<a href="javascript:void(0)" class="active-news-title featured-title">FEATURED</a>
-							&nbsp;/&nbsp; <a href="javascript:void(0)" class="popular-title">HOT</a>  &nbsp;/&nbsp; <a href="javascript:void(0)" class="new-title">NEW</a>
-					</h3>
-					<br class="clr" />
+			<div class="loading-section">
+				<div class="loading"></div>
+			</div>
+
+			<div id="articles" class="news-mainsection">
+				<ul id="articleListIndex">
+					<div class="news-mainsection1">
+						<div class="musicevents"><!--READ NEWS Table starts-->
+							<div class="readNewsTable">
+								<ul class="readNewsRow">
+									<li class="readNewsCellLeft">
+										<div>
+											<a href="" alt="read news"/><img src="http://guestlist.net/uploads/articles/2015/05/87699.png" /></a>
+										</div>
+										<h3><a href="">ShowMango sorts out your summer</a></h3>
+											<p class='article-author'>By 
+												<a href=''>	
+													Christina Dean -  
+												</a>
+												<a class='article-date'>12 May, 2015 </a>
+											</p>
+										<p>The "Birthplace of British cinema" has been restored to its former glory.</p>
+									</li><!--readNewsCellLeft-->
+									
+									<li class="readNewsCellRight">
+										<ul>
+											<li class="readNewsBox">
+												<div style="overflow:hidden;width:135px;margin-left:20px;">
+													<a href="" alt="" width="135"><img src="http://guestlist.net/uploads/articles/2015/05/87747.png" /></a>
+												</div>
+												<div class="articles-content">
+													<p><a href="">ShowMango sorts out your summer</a></p>
+													<!--<img src="/images/news/facebook.jpg" alt="facebook" width="22" height="21">
+													<img class="twitterLogo" src="/images/news/twitter.jpg" alt="twitter" width="22" height="21">-->
+													<p class='article-author'>
+														By <a href=''>
+														Christina Dean -  
+														</a>
+														<a class='article-date'>12 May, 2015 </a>
+													</p>
+													 
+													<p>The "Birthplace of British cinema" has been restored to its former glory.</p>
+												</div>
+											</li>
+																					<li class="readNewsBox">
+												<div style="overflow:hidden;width:135px;margin-left:20px;">
+													<a href="" alt="" width="135"><img src="http://guestlist.net/uploads/articles/2015/05/87747.png" /></a>
+												</div>
+												<div class="articles-content">
+													<p><a href="">ShowMango sorts out your summer</a></p>
+													<!--<img src="/images/news/facebook.jpg" alt="facebook" width="22" height="21">
+													<img class="twitterLogo" src="/images/news/twitter.jpg" alt="twitter" width="22" height="21">-->
+													<p class='article-author'>
+														By <a href=''>
+														Christina Dean -  
+														</a>
+														<a class='article-date'>12 May, 2015 </a>
+													</p>
+													 
+													<p>The "Birthplace of British cinema" has been restored to its former glory.</p>
+												</div>
+											</li>
+																															<li class="readNewsBox">
+												<div style="overflow:hidden;width:135px;margin-left:20px;">
+													<a href="" alt="" width="135"><img src="http://guestlist.net/uploads/articles/2015/05/87747.png" /></a>
+												</div>
+												<div class="articles-content">
+													<p><a href="">ShowMango sorts out your summer</a></p>
+													<!--<img src="/images/news/facebook.jpg" alt="facebook" width="22" height="21">
+													<img class="twitterLogo" src="/images/news/twitter.jpg" alt="twitter" width="22" height="21">-->
+													<p class='article-author'>
+														By <a href=''>
+														Christina Dean -  
+														</a>
+														<a class='article-date'>12 May, 2015 </a>
+													</p>
+													 
+													<p>Glitterbox has revealed full weekly line-ups at Space Ibiza, alongside collaborations with iconic artist TradeMark, club performance collective “Savage” and award-winning creative director Mark Herman.  </p>
+												</div>
+											</li>
+																															<li class="readNewsBox">
+												<div style="overflow:hidden;width:135px;margin-left:20px;">
+													<a href="" alt="" width="135"><img src="http://guestlist.net/uploads/articles/2015/05/87747.png" /></a>
+												</div>
+												<div class="articles-content">
+													<p><a href="">ShowMango sorts out your summer</a></p>
+													<!--<img src="/images/news/facebook.jpg" alt="facebook" width="22" height="21">
+													<img class="twitterLogo" src="/images/news/twitter.jpg" alt="twitter" width="22" height="21">-->
+													<p class='article-author'>
+														By <a href=''>
+														Christina Dean -  
+														</a>
+														<a class='article-date'>12 May, 2015 </a>
+													</p>
+													 
+													<p>The "Birthplace of British cinema" has been restored to its former glory.</p>
+												</div>
+											</li>
+										</ul>
+									</li><!--readNewsCellRight-->
+								</ul><!--readNewsRow-->
+							</div><!--readNewsTable-->    
+						</div><!--musicevents-->
+					</div>
+				</ul>
+				<ul id="articleListIndexTemp"> </ul>
+
+				<div id="paging">
 				</div>
-				<div class="news-menu-right-options">
-					<ul>
-						<li class="articleItemListElement easeInOutAll200">
-							<figure>
-								<a class="clearfix" href="">
-									<div class="articleItemListElementImgContainer">
-										<img src="http://0.static.newspaper.guestlistmedia.net/uploads/articles/11/750_smallsquare.jpg" alt=""  class="imgb" width="100%" height="" />
+			</div>
+			
+		</div>
+		<div class="col-md-4 col-xs-12">
+			<div class="col-md-12 col-xs-8">
+				<div style="min-height:400px;">
+					<div class="news-menu-right-title">
+						<h3>
+							<a href="javascript:void(0)" class="active-news-title featured-title">FEATURED</a>
+								&nbsp;/&nbsp; <a href="javascript:void(0)" class="popular-title">HOT</a>  &nbsp;/&nbsp; <a href="javascript:void(0)" class="new-title">NEW</a>
+						</h3>
+						<br class="clr" />
+					</div>
+					<div class="news-menu-right-options">
+						<ul>
+							<li class="articleItemListElement easeInOutAll200">
+								<figure>
+									<a class="clearfix" href="">
+										<div class="articleItemListElementImgContainer">
+											<img src="http://0.static.newspaper.guestlistmedia.net/uploads/articles/11/750_smallsquare.jpg" alt=""  class="imgb" width="100%" height="" />
+										</div>
+										<figcaption class="easeInOutAll200 ">
+											<h4 class="articleItemListElementContent">'They could stop the...</h4>
+											<a class="articleItemListElementContentText">The man that many claim invented...</a>
+										</figcaption>
+										<br class="clr" />
+									</a>
+								</figure>
+							</li>
+													<li class="articleItemListElement easeInOutAll200">
+								<figure>
+									<a class="clearfix" href="">
+										<div class="articleItemListElementImgContainer">
+											<img src="http://0.static.newspaper.guestlistmedia.net/uploads/articles/11/750_smallsquare.jpg" alt=""  class="imgb" width="100%" height="" />
+										</div>
+										<figcaption class="easeInOutAll200 ">
+											<h4 class="articleItemListElementContent">'They could stop the...</h4>
+											<a class="articleItemListElementContentText">The man that many claim invented...</a>
+										</figcaption>
+										<br class="clr" />
+									</a>
+								</figure>
+							</li>
+													<li class="articleItemListElement easeInOutAll200">
+								<figure>
+									<a class="clearfix" href="">
+										<div class="articleItemListElementImgContainer">
+											<img src="http://0.static.newspaper.guestlistmedia.net/uploads/articles/11/750_smallsquare.jpg" alt=""  class="imgb" width="100%" height="" />
+										</div>
+										<figcaption class="easeInOutAll200 ">
+											<h4 class="articleItemListElementContent">'They could stop the...</h4>
+											<a class="articleItemListElementContentText">The man that many claim invented...</a>
+										</figcaption>
+										<br class="clr" />
+									</a>
+								</figure>
+							</li>
+																			<li class="articleItemListElement easeInOutAll200">
+								<figure>
+									<a class="clearfix" href="">
+										<div class="articleItemListElementImgContainer">
+											<img src="http://0.static.newspaper.guestlistmedia.net/uploads/articles/11/750_smallsquare.jpg" alt=""  class="imgb" width="100%" height="" />
+										</div>
+										<figcaption class="easeInOutAll200 ">
+											<h4 class="articleItemListElementContent">'They could stop the...</h4>
+											<a class="articleItemListElementContentText">The man that many claim invented...</a>
+										</figcaption>
+										<br class="clr" />
+									</a>
+								</figure>
+							</li>
+																			<li class="articleItemListElement easeInOutAll200">
+								<figure>
+									<a class="clearfix" href="">
+										<div class="articleItemListElementImgContainer">
+											<img src="http://0.static.newspaper.guestlistmedia.net/uploads/articles/11/750_smallsquare.jpg" alt=""  class="imgb" width="100%" height="" />
+										</div>
+										<figcaption class="easeInOutAll200 ">
+											<h4 class="articleItemListElementContent">'They could stop the...</h4>
+											<a class="articleItemListElementContentText">The man that many claim invented...</a>
+										</figcaption>
+										<br class="clr" />
+									</a>
+								</figure>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 col-xs-4">
+				<div class="news-flash">
+					<span class=active-news-title>NEWSFLASH</span>
+					<ul class="flash-list flash-list0" id="flash-list-0">
+						<li class="news_flash_first">
+							<a href="">
+								<div>
+									<div class="flash-img">
+										<img src="http://guestlist.net/uploads/articles/2015/05/87754.jpg" width="100%"/>
 									</div>
-									<figcaption class="easeInOutAll200 ">
-										<h4 class="articleItemListElementContent">'They could stop the...</h4>
-										<a class="articleItemListElementContentText">The man that many claim invented...</a>
-									</figcaption>
-									<br class="clr" />
-								</a>
-							</figure>
+									<h4>FREE CULTURAL ACTIVITIES...</h4>
+								</div>
+							</a>
+							<br class="clr" />
 						</li>
-												<li class="articleItemListElement easeInOutAll200">
-							<figure>
-								<a class="clearfix" href="">
-									<div class="articleItemListElementImgContainer">
-										<img src="http://0.static.newspaper.guestlistmedia.net/uploads/articles/11/750_smallsquare.jpg" alt=""  class="imgb" width="100%" height="" />
+						<li class="news_flash_first">
+							<a href="">
+								<div>
+									<div class="flash-img">
+										<img src="http://guestlist.net/uploads/articles/2015/05/87754.jpg" width="100%"/>
 									</div>
-									<figcaption class="easeInOutAll200 ">
-										<h4 class="articleItemListElementContent">'They could stop the...</h4>
-										<a class="articleItemListElementContentText">The man that many claim invented...</a>
-									</figcaption>
-									<br class="clr" />
-								</a>
-							</figure>
+									<h4>FREE CULTURAL ACTIVITIES...</h4>
+								</div>
+							</a>
+							<br class="clr" />
 						</li>
-												<li class="articleItemListElement easeInOutAll200">
-							<figure>
-								<a class="clearfix" href="">
-									<div class="articleItemListElementImgContainer">
-										<img src="http://0.static.newspaper.guestlistmedia.net/uploads/articles/11/750_smallsquare.jpg" alt=""  class="imgb" width="100%" height="" />
+						<li class="news_flash_first">
+							<a href="">
+								<div>
+									<div class="flash-img">
+										<img src="http://guestlist.net/uploads/articles/2015/05/87754.jpg" width="100%"/>
 									</div>
-									<figcaption class="easeInOutAll200 ">
-										<h4 class="articleItemListElementContent">'They could stop the...</h4>
-										<a class="articleItemListElementContentText">The man that many claim invented...</a>
-									</figcaption>
-									<br class="clr" />
-								</a>
-							</figure>
+									<h4>FREE CULTURAL ACTIVITIES...</h4>
+								</div>
+							</a>
+							<br class="clr" />
 						</li>
-																		<li class="articleItemListElement easeInOutAll200">
-							<figure>
-								<a class="clearfix" href="">
-									<div class="articleItemListElementImgContainer">
-										<img src="http://0.static.newspaper.guestlistmedia.net/uploads/articles/11/750_smallsquare.jpg" alt=""  class="imgb" width="100%" height="" />
-									</div>
-									<figcaption class="easeInOutAll200 ">
-										<h4 class="articleItemListElementContent">'They could stop the...</h4>
-										<a class="articleItemListElementContentText">The man that many claim invented...</a>
-									</figcaption>
-									<br class="clr" />
-								</a>
-							</figure>
-						</li>
-																		<li class="articleItemListElement easeInOutAll200">
-							<figure>
-								<a class="clearfix" href="">
-									<div class="articleItemListElementImgContainer">
-										<img src="http://0.static.newspaper.guestlistmedia.net/uploads/articles/11/750_smallsquare.jpg" alt=""  class="imgb" width="100%" height="" />
-									</div>
-									<figcaption class="easeInOutAll200 ">
-										<h4 class="articleItemListElementContent">'They could stop the...</h4>
-										<a class="articleItemListElementContentText">The man that many claim invented...</a>
-									</figcaption>
-									<br class="clr" />
-								</a>
-							</figure>
-						</li>
+					</ul>
+					<ul class="news-flash-menu">
+						<li class="" id=""></li>
 					</ul>
 				</div>
 			</div>
-		</div>
-		<div class="col-md-12 col-xs-4">
-			<div class="news-flash">
-				<span class=active-news-title>NEWSFLASH</span>
-				<ul class="flash-list flash-list0" id="flash-list-0">
-					<li class="news_flash_first">
-						<a href="">
-							<div>
-								<div class="flash-img">
-									<img src="http://guestlist.net/uploads/articles/2015/05/87754.jpg" width="100%"/>
-								</div>
-								<h4>FREE CULTURAL ACTIVITIES...</h4>
-							</div>
-						</a>
-						<br class="clr" />
-					</li>
-					<li class="news_flash_first">
-						<a href="">
-							<div>
-								<div class="flash-img">
-									<img src="http://guestlist.net/uploads/articles/2015/05/87754.jpg" width="100%"/>
-								</div>
-								<h4>FREE CULTURAL ACTIVITIES...</h4>
-							</div>
-						</a>
-						<br class="clr" />
-					</li>
-					<li class="news_flash_first">
-						<a href="">
-							<div>
-								<div class="flash-img">
-									<img src="http://guestlist.net/uploads/articles/2015/05/87754.jpg" width="100%"/>
-								</div>
-								<h4>FREE CULTURAL ACTIVITIES...</h4>
-							</div>
-						</a>
-						<br class="clr" />
-					</li>
-				</ul>
-				<ul class="news-flash-menu">
-					<li class="" id=""></li>
-				</ul>
+		</div>		
+	</div>
+	<div class="row content">
+		<div class="col-md-8 col-xs-8">
+			<div class="newspaper visible-md">
+				<iframe class="newspaper-iframe" src="http://read.uberflip.com/read/embed_mini/12688/396481?miniPop=false&alwaysCover=false&miniTitle=&miniColor=&miniLinkToTitle=true&miniUrl=&miniBg=FFFFFF&hideBg=false&width=570&height=400&sharing=false"></iframe>
+			</div>
+			<div class="newspapers hidden-md">
+				<span class=title>NEWSPAPERS</span><span style="margin-right: 30px;" class="more">MORE</span>
+				<div class="newspaper-single">
+					<a target="_blank" href=""><img class="img-responsive" src="http://1.static.newspaper.guestlistmedia.net/uploads/newspapers/0/171_mediumposter.jpg"></a>
+					<h3>ISSUE 63</h3>
+				</div>
+				<div class="newspaper-single">
+					<a target="_blank" href=""><img class="img-responsive" src="http://1.static.newspaper.guestlistmedia.net/uploads/newspapers/0/171_mediumposter.jpg"></a>
+					<h3>ISSUE 63</h3>
+				</div>	
+				<div class="newspaper-single">
+					<a target="_blank" href=""><img class="img-responsive" src="http://1.static.newspaper.guestlistmedia.net/uploads/newspapers/0/171_mediumposter.jpg"></a>
+					<h3>ISSUE 63</h3>
+				</div>
+				<div class="newspaper-single">
+					<a target="_blank" href=""><img class="img-responsive" src="http://1.static.newspaper.guestlistmedia.net/uploads/newspapers/0/171_mediumposter.jpg"></a>
+					<h3>ISSUE 63</h3>
+				</div>				
 			</div>
 		</div>
+		<div class="col-md-4 col-xs-8">
+		
+		</div>
 	</div>
+
 
 </div>
 
