@@ -463,6 +463,19 @@ div#mini_share{
 	footer form .button{
 		padding: 0 5px;;
 	}
+		.footer-2 ul{
+		list-style-type: circle;
+	}
+	.footer-2 ul li{
+		float: left;
+		margin-right: 17px;
+	}
+	.footer-2 ul li a{
+		color: #5e7777;
+	}
+	.footer-2 ul li a:hover{
+		color: white;
+	}
 
 }
 @media screen and (min-width:992px) {
@@ -711,7 +724,25 @@ div#mini_share {
 	.row.content{
 		margin-bottom: 50px;
 	}
-	
+	.footer{
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.footer-2{
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.footer-2-wrapper{
+		background-color: #2a2a2b;
+	}
+	#footerLogo {
+		display: block;
+		float: left;
+		height: 52px;
+		width: 65px;
+		opacity: 0.2;
+		background: url("/images/guestlist_icon.png") no-repeat scroll -212px -76px transparent;
+    }
 }
 @media screen and (max-width:992px) {
 	.row.content{
@@ -837,6 +868,20 @@ div#mini_share {
 		width: 83%;
 		margin: 0 auto;
 		text-align: center;
+	}
+	.footer-list{
+		width: 84%;
+		margin: 0 auto;
+	}
+	footer ul{
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+	.footer{
+		width: 100%;
+	}
+	.footer-2{
+		width: 100%;
 	}
 	
 }
