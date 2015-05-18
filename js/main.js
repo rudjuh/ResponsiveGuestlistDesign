@@ -19,7 +19,7 @@ var actions = {
             clearTimeout(window.resizeEvt);
             window.resizeEvt = setTimeout(function(){
 
-                if ($(window).width() < 988){
+                if ($(window).width() < 970){
                     $('nav').addClass('navbar-fixed-top');
                     $('#navbrand').addClass('navbar-wrapper');
                     $('.player').css("margin-top", "0px");
@@ -28,7 +28,7 @@ var actions = {
                     //$('.top-menu-wrapper').css("display", "none");
                 }
 
-                if ($(window).width() > 988){
+                if ($(window).width() > 970){
                     $('#account-wrapper').addClass('account-container-wrapper');
                     $('nav').removeClass('navbar-fixed-top');
                     $('#navbrand').removeClass('navbar-wrapper');
