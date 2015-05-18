@@ -463,12 +463,15 @@ div#mini_share{
 	footer form .button{
 		padding: 0 5px;;
 	}
-		.footer-2 ul{
-		list-style-type: circle;
+	.footer-2 ul{
+		margin-left: 20px;
 	}
 	.footer-2 ul li{
 		float: left;
 		margin-right: 17px;
+	}
+	.footer-2-wrapper{
+		background-color: #2a2a2b;
 	}
 	.footer-2 ul li a{
 		color: #5e7777;
@@ -476,6 +479,16 @@ div#mini_share{
 	.footer-2 ul li a:hover{
 		color: white;
 	}
+	#footerLogo {
+		display: block;
+		float: left;
+		height: 52px;
+		width: 65px;
+		margin-top: 5px;
+		margin-left: 45px;
+		opacity: 0.2;
+		background: url("../images/guestlist_icon.png") no-repeat scroll -212px -76px transparent;
+    }
 
 }
 @media screen and (min-width:992px) {
@@ -732,17 +745,6 @@ div#mini_share {
 		width: 1000px;
 		margin: 0 auto;
 	}
-	.footer-2-wrapper{
-		background-color: #2a2a2b;
-	}
-	#footerLogo {
-		display: block;
-		float: left;
-		height: 52px;
-		width: 65px;
-		opacity: 0.2;
-		background: url("/images/guestlist_icon.png") no-repeat scroll -212px -76px transparent;
-    }
 }
 @media screen and (max-width:992px) {
 	.row.content{
