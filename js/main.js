@@ -54,7 +54,16 @@ var actions = {
         $content.stop();
     },
     toggleHeaderMenu: function() {
-        $('.top-menu-wrapper').toggleClass( "top-menu-wrapper-toggle", 500 );
+        $('.top-menu-wrapper').toggleClass('top-menu-wrapper-toggle', 500);
+        if ($('#arrowLogin').hasClass('menuArrow')) {
+            $('#arrowLogin')
+                .addClass('rotateArrow')
+                .removeClass('menuArrow');
+        } else {
+            $('#arrowLogin')
+                .addClass('menuArrow')
+                .removeClass('rotateArrow');
+        }
     },
     checkMenuCollapse: function(event) {
         if(!$(event.target).closest('.main-menu').length) {
@@ -68,6 +77,7 @@ var actions = {
 var init = {
     set: function() {
         this.customActions();
+        this.eventBoxEvents();
 
         $(window).scroll(actions.scrollBar);
         $(window).bind('resize', actions.resizer);

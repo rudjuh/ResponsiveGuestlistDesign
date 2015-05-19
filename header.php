@@ -45,7 +45,7 @@
 			<span style="line-height: 29px; float: left;">With</span>
 			<div id="loginFacebook"><a href="/auth/facebook" title="login with Facebook"></a></div>
 			<br class="clr" />
-			<div class="top-menu-toggle">Login <span id="arrowLogin" class="arrowWhite easeInOutAll400" style="transform: rotate(0deg);"></span></div>
+			<div class="top-menu-toggle">Login <span id="arrowLogin" class="arrowWhite easeInOutAll400 menuArrow"></span></div>
 		</div>
 		
 					
