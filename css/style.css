@@ -530,6 +530,7 @@ div#mini_share {
 	}
 	.nav>li:first-child{
 		border-left: 1px solid #B3B3B3;
+		margin-left: -80px;
 	}
 	.navbar-default .navbar-nav>li>a{
 		color: #744596;
@@ -559,7 +560,7 @@ div#mini_share {
 		float: left;
 		padding: 7px;
 		text-align: center;
-		margin-right: 8px;
+		margin-right: 11px;
 	}
 	.second-nav li a{
 		text-decoration: none;
@@ -596,7 +597,7 @@ div#mini_share {
 		margin-top: -48px;
 	}
 	.top-menu{
-		width: 969px;
+		 width: 893px;
 		margin: 0 auto;
 		position: relative;
 	}
