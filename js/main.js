@@ -84,7 +84,7 @@ var init = {
             $('.guest-lists').removeClass('hidden');
         });
 
-        $('.top-menu-btn').click(actions.toggleHeaderMenu);
+        $('.top-menu-toggle').click(actions.toggleHeaderMenu);
 
         $(document).click(function(event) {
             actions.checkMenuCollapse(event);
