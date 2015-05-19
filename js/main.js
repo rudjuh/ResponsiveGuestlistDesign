@@ -52,6 +52,16 @@ var actions = {
     },
     stop: function () {
         $content.stop();
+    },
+    toggleHeaderMenu: function() {
+        $('.top-menu-wrapper').toggleClass( "top-menu-wrapper-toggle", 500 );
+    },
+    checkMenuCollapse: function(event) {
+        if(!$(event.target).closest('.main-menu').length) {
+            if($('.navbar-toggle').hasClass('collapsed') == false) {
+                $('.navbar-toggle').click();
+            }
+        }
     }
 };
 
@@ -74,7 +84,11 @@ var init = {
             $('.guest-lists').removeClass('hidden');
         });
 
-        this.eventBoxEvents();
+        $('.top-menu-btn').click(actions.toggleHeaderMenu);
+
+        $(document).click(function(event) {
+            actions.checkMenuCollapse(event);
+        });
     },
     customActions: function() {
         if($(window).width() < 992){

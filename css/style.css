@@ -889,7 +889,11 @@ div#mini_share {
 }
 
 
-@media screen and (max-width:766) {
+@media screen and (max-width:766px) {
 
 
+}
+
+.top-menu-wrapper-toggle {
+    margin-top: 0;
 }

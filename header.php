@@ -55,7 +55,7 @@
 					<img src="images/logo.png" width="350px"/>
 				</div>
 				<div class="nav-wrapper">
-					<nav class="navbar navbar-default" role="navigation">
+					<nav class="navbar navbar-default main-menu" role="navigation">
 						<div class="container">
 						<!-- Brand and toggle get grouped for better mobile display -->
 							<div class="navbar-header navbar-fixed-top">
