@@ -701,6 +701,7 @@ div#mini_share {
 		right: 0;
 		color: white;
 		cursor: pointer;
+		z-index: 10000;
 	}
 	.arrowWhite {
 		height: 7px;
