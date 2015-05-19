@@ -138,7 +138,7 @@ include 'header.php';
 <div class="row content-container">
 	<div class="row content">
 		<div class="col-md-8 col-sm-12">
-			<div class="news-menu">
+			<div class="news-menu hidden-xs">
 				<ul>
 					<li class="active"><a href="/news"><span>News</span></a></li>
 					<li><a href="/fashion"><span class="">Fashion</span></a></li>

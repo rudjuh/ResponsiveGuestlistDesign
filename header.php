@@ -27,7 +27,7 @@
 			</div>
 			<div class="hr-hor"></div>
 			<form id="formTopBarLogin" class="loginHeader" accept-charset="utf-8" method="post" controller="users" action="/users/login">
-				<span>Login with Guestlist</span>
+				<span>Login</span>
 				<input required="" id="username" name="data[User][email]" autocomplete="on" placeholder="Email" type="email">
 				<div id="forget">
 					<input required="" id="passwordLogin" name="data[User][password]" autocomplete="on" placeholder="Password" type="password">

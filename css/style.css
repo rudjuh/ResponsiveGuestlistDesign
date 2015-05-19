@@ -574,7 +574,7 @@ div#mini_share {
 	.banner-img{
 		display: block;
 		margin-bottom: 40px;
-		width: 923px;
+		width: 905px;
 		margin: 0 auto 40px auto;
 	}
 	.profil{
@@ -639,7 +639,7 @@ div#mini_share {
 		padding-left: 10px;
 		border: 2px solid rgb(156,98,183);
 		font-weight: 400;
-		width: 150px;
+		width: 201px;
 	}
 	#forget{
 		float: left;
