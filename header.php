@@ -20,7 +20,7 @@
     <![endif]-->
   </head>
   <body>
-	<div class="top-menu-wrapper hidden-sm hidden-xs">
+	<div class="top-menu-wrapper navbar-fiex-top hidden-sm hidden-xs">
 		<div class="top-menu">
 			<div class="join-btn">
 				<a href="/users/add">Join Guestlist now</a>
@@ -45,7 +45,9 @@
 			<span style="line-height: 29px; float: left;">With</span>
 			<div id="loginFacebook"><a href="/auth/facebook" title="login with Facebook"></a></div>
 			<br class="clr" />
+			<div class="top-menu-toggle">Login <span id="arrowLogin" class="arrowWhite easeInOutAll400" style="transform: rotate(0deg);"></span></div>
 		</div>
+		
 					
 	</div>
 	<div class="header-wrapper">

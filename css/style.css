@@ -559,7 +559,7 @@ div#mini_share {
 		float: left;
 		padding: 7px;
 		text-align: center;
-		margin-right: 0px;
+		margin-right: 8px;
 	}
 	.second-nav li a{
 		text-decoration: none;
@@ -571,9 +571,10 @@ div#mini_share {
 		width: 980px;
 	}
 	.banner-img{
-		margin-left: 11%;
 		display: block;
 		margin-bottom: 40px;
+		width: 923px;
+		margin: 0 auto 40px auto;
 	}
 	.profil{
 		display: none;
@@ -595,8 +596,9 @@ div#mini_share {
 		margin-top: -48px;
 	}
 	.top-menu{
-		width: 999px;
+		width: 969px;
 		margin: 0 auto;
+		position: relative;
 	}
 	.join-btn{
 		float: left;
@@ -689,6 +691,23 @@ div#mini_share {
 		width: 23px;
 		display: block;
 	}
+	.top-menu-toggle{
+		padding: 5px;
+		color: black;
+		position: absolute;
+		background-color: #773d8d;
+		border-bottom-left-radius: 4px;
+		border-bottom-right-radius: 4px;
+		right: 0;
+		color: white;
+		cursor: pointer;
+	}
+	.arrowWhite {
+		height: 7px;
+		width: 14px;
+		display: inline-block;
+		background: url("../images/guestlist_icon.png") no-repeat scroll -171px -19px;
+	}
 	.articleItemListElement{
 		margin-bottom: 10px;
 		border-bottom: 1px solid #DDDDDD;
@@ -718,13 +737,6 @@ div#mini_share {
 		font-size: 15px;
 		font-weight: 600;
 		text-overflow: ellipsis;
-	}
-	.top-menu-btn{
-		background: #773d8d;
-		height: 10px;
-		width: 10px;
-		border-bottom-left-radius: 3px;
-		border-bottom-right-radius: 3px;
 	}
 	.newspaper{
 		width: 100%;
