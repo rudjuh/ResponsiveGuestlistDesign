@@ -71,6 +71,13 @@ var actions = {
                 $('.navbar-toggle').click();
             }
         }
+    },
+    checkPasswordForm: function(obj) {
+        if ($(obj).val().length >= 13) {
+            $('.passwordForgottenLink').css('visibility', 'hidden');
+        } else {
+            $('.passwordForgottenLink').css('visibility', 'visible');
+        }
     }
 };
 
@@ -98,6 +105,10 @@ var init = {
 
         $(document).click(function(event) {
             actions.checkMenuCollapse(event);
+        });
+
+        $('#formTopBarLogin').on('input', '#passwordLogin', function() {
+            actions.checkPasswordForm(this);
         });
     },
     customActions: function() {
