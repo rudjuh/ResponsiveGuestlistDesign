@@ -137,7 +137,7 @@ include 'header.php';
 </div>
 <div class="row content-container">
 	<div class="row content">
-		<div class="col-md-8 col-xs-12">
+		<div class="col-md-8 col-sm-12">
 			<div class="news-menu">
 				<ul>
 					<li class="active"><a href="/news"><span>News</span></a></li>
@@ -259,8 +259,8 @@ include 'header.php';
 			</div>
 			
 		</div>
-		<div class="col-md-4 col-xs-12">
-			<div class="col-md-12 col-xs-8">
+		<div class="col-md-4 col-sm-12">
+			<div class="col-md-12 col-sm-8">
 				<div style="min-height:400px;">
 					<div class="news-menu-right-title">
 						<h3>
@@ -345,7 +345,7 @@ include 'header.php';
 					</div>
 				</div>
 			</div>
-			<div class="col-md-12 col-xs-4">
+			<div class="col-md-12 col-sm-4">
 				<div class="news-flash">
 					<span class=active-news-title>NEWSFLASH</span>
 					<ul class="flash-list flash-list0" id="flash-list-0">
@@ -391,13 +391,13 @@ include 'header.php';
 		</div>		
 	</div>
 	<div class="row content">
-		<div class="col-md-8 col-xs-12">
-			<div class="newspaper visible-md">
+		<div class="col-md-8 col-sm-12">
+			<div class="newspaper visible-md visible-lg">
 				<span class=title>NEWSPAPER - ISSUE 63</span>
 				<iframe class="newspaper-iframe" src="http://read.uberflip.com/read/embed_mini/12688/396481?miniPop=false&alwaysCover=false&miniTitle=&miniColor=&miniLinkToTitle=true&miniUrl=&miniBg=FFFFFF&hideBg=false&width=570&height=400&sharing=false"></iframe>
 			</div>
-			<span class="title hidden-md">NEWSPAPERS</span><span style="margin-right: 30px;" class="more hidden-md">MORE</span>
-			<div class="newspapers hidden-md">
+			<span class="title hidden-md">NEWSPAPERS</span><span style="margin-right: 30px;" class="more hidden-md hidden-lg">MORE</span>
+			<div class="newspapers hidden-md hidden-lg">
 				<div class="newspaper-single">
 					<a target="_blank" href=""><img class="img-responsive" src="http://1.static.newspaper.guestlistmedia.net/uploads/newspapers/0/171_mediumposter.jpg"></a>
 					<h3>ISSUE 63</h3>
@@ -412,7 +412,7 @@ include 'header.php';
 				</div>			
 			</div>
 		</div>
-		<div class="col-md-4 col-xs-4">
+		<div class="col-md-4 col-sm-4 visible-md visible-lg">
 			<span class=title>TWITTER</span>
 			<div class="twitter">
 				<ul class="tweets">
@@ -424,6 +424,19 @@ include 'header.php';
 				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 			</div>
+		</div>
+	</div>
+	<div class="row content">
+		<div class="col-md-8 col-sm-12">
+			<div class="featured-comp">
+				<span style="width: 100%;" class=title>Win 2 tickets to Outbreak Festival, 23rd & 24th May</span>
+				<a href="/competition/5705/win-2-tickets-to-outbreak-festival-23rd-24th-may">
+					<img class="img-responsive" src="http://0.static.newspaper.guestlistmedia.net/uploads/competitions/5/705_xl.jpg">
+				</a>
+			</div>
+		</div>
+		<div class="col-md-4 hidden-sm">
+		
 		</div>
 	</div>
 

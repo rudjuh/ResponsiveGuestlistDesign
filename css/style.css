@@ -82,7 +82,7 @@ div#mini_share{
 .navbar-default .navbar-toggle{
 	background-color: white;
 }
-@media screen and (min-width:767px){
+@media screen and (min-width:700px){
 	.player{
 		background: url('../images/london_bg.jpg') no-repeat fixed center top / cover transparent;
 		-webkit-background-size: cover;
@@ -417,6 +417,78 @@ div#mini_share{
 		padding: 17px;
 		font-weight: 600;
 	}
+	.featured-comp{
+		height: 270px;
+		overflow: hidden;
+	}
+	.featured-comp img:hover{
+		opacity: 0.5;
+	}
+	footer{
+		background-color: #222222;
+	}
+	footer ul{
+		margin-left: 50px;
+		margin-right: 50px;
+		float: left;
+		padding: 20px 0 20px 0;
+	}
+	footer ul span{
+		text-transform: uppercase;
+		background-color: white;
+		display: inline-block;
+		color: #575656;
+		text-align: center;
+		padding: 4px;
+		font-size: 13px;
+		font-weight: 600;
+		margin-bottom: 13px;
+	}
+	footer ul li a{
+		font-size: 12px;
+		color: white;
+	}
+	footer ul li a:hover{
+		text-decoration: underline;
+		color: white;
+	}
+	footer form{
+		float: right;
+		margin-top: 20px;
+	}
+	footer form span{
+		color: white;
+		font-size: 13px;
+	}
+	footer form .button{
+		padding: 0 5px;;
+	}
+	.footer-2 ul{
+		margin-left: 20px;
+	}
+	.footer-2 ul li{
+		float: left;
+		margin-right: 17px;
+	}
+	.footer-2-wrapper{
+		background-color: #2a2a2b;
+	}
+	.footer-2 ul li a{
+		color: #777;
+	}
+	.footer-2 ul li a:hover{
+		color: white;
+	}
+	#footerLogo {
+		display: block;
+		float: left;
+		height: 52px;
+		width: 65px;
+		margin-top: 5px;
+		margin-left: 45px;
+		opacity: 0.2;
+		background: url("../images/guestlist_icon.png") no-repeat scroll -212px -76px transparent;
+    }
 
 }
 @media screen and (min-width:992px) {
@@ -665,7 +737,14 @@ div#mini_share {
 	.row.content{
 		margin-bottom: 50px;
 	}
-	
+	.footer{
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.footer-2{
+		width: 1000px;
+		margin: 0 auto;
+	}
 }
 @media screen and (max-width:992px) {
 	.row.content{
@@ -786,6 +865,25 @@ div#mini_share {
 		text-align: center;
 		display: block;
 		font-weight: bold;
+	}
+	.featured-comp{
+		width: 83%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.footer-list{
+		width: 84%;
+		margin: 0 auto;
+	}
+	footer ul{
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+	.footer{
+		width: 100%;
+	}
+	.footer-2{
+		width: 100%;
 	}
 	
 }
