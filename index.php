@@ -135,8 +135,29 @@ include 'header.php';
 		</div>
 	</div>
 </div>
+<div class="slider-wrapper visible-xs">
+	<div class="lmt-wrapper">
+		<div class="lmt-img-wrapper">
+			<a href=""><img class="" src="http://guestlist.net/uploads/events/2015/04/16757.jpg" alt="read news" width="100%"></a>
+		</div>
+		<h2>events</h2>
+		<h3>Deadrootz Launch party lifesessions at Guestlist</h3>
+	</div>
+</div>
+
+<div class="slider-wrapper visible-xs">
+	<div class="lmt-wrapper">
+		<div class="lmt-img-wrapper">
+			<a href=""><img class="" src="http://guestlist.net/uploads/events/2015/04/16757.jpg" alt="read news" width="100%"></a>
+		</div>
+		<h2>events</h2>
+		<h3>Deadrootz Launch party lifesessions at Guestlist</h3>
+	</div>
+</div>
+
+
 <div class="row content-container">
-	<div class="row content">
+	<div class="row content hidden-xs">
 		<div class="col-md-8 col-sm-12">
 			<div class="news-menu hidden-xs">
 				<ul>
@@ -151,7 +172,7 @@ include 'header.php';
 				<div class="loading"></div>
 			</div>
 
-			<div id="articles" class="news-mainsection">
+			<div id="articles" class="news-mainsection hidden-xs">
 				<ul id="articleListIndex">
 					<div class="news-mainsection1">
 						<div class="musicevents"><!--READ NEWS Table starts-->
@@ -390,7 +411,7 @@ include 'header.php';
 			</div>
 		</div>		
 	</div>
-	<div class="row content">
+	<div class="row content hidden-xs">
 		<div class="col-md-8 col-sm-12">
 			<div class="newspaper visible-md visible-lg">
 				<span class=title>NEWSPAPER - ISSUE 63</span>
@@ -426,7 +447,7 @@ include 'header.php';
 			</div>
 		</div>
 	</div>
-	<div class="row content">
+	<div class="row content hidden-xs">
 		<div class="col-md-8 col-sm-12">
 			<div class="featured-comp">
 				<span style="width: 100%;" class=title>Win 2 tickets to Outbreak Festival, 23rd & 24th May</span>
