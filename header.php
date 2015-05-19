@@ -20,7 +20,7 @@
     <![endif]-->
   </head>
   <body>
-	<div class="top-menu-wrapper navbar-fixed-top hidden-sm hidden-xs">
+	<div style="z-index: 1050;"class="top-menu-wrapper navbar-fixed-top hidden-sm hidden-xs">
 		<div class="top-menu">
 			<div class="join-btn">
 				<a href="/users/add">Join Guestlist now</a>
