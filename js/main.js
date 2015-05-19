@@ -40,7 +40,8 @@ var actions = {
         });
     },
     loopO: function () {
-        if ($('.gl-events-box').css('margin-left').replace('px', '') <= '0') {
+        console.log($('.gl-events-box').css('margin-left').replace('px', ''));
+        if ($('.gl-events-box').css('margin-left').replace('px', '') + 25 <= '20') {
             $content.stop().animate({marginLeft: '+=20'}, speed, 'linear', actions.loopO);
         }
     },
