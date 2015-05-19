@@ -31,7 +31,7 @@
 				<input required="" id="username" name="data[User][email]" autocomplete="on" placeholder="Email" type="email">
 				<div id="forget">
 					<input required="" id="passwordLogin" name="data[User][password]" autocomplete="on" placeholder="Password" type="password">
-					<a href="/users/forgot_password">
+					<a href="/users/forgot_password" class="passwordForgottenLink">
 					  <div class="forget">(forgot ?)</div>
 					</a>
 				</div>
