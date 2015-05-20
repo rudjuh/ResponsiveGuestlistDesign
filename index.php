@@ -138,7 +138,12 @@ include 'header.php';
 <div class="slider-wrapper visible-xs">
 	<div class="lmt-wrapper">
 		<div class="lmt-img-wrapper">
+			<div class="mobile-arrows">
+				<img class="img-responsive" src="images/arrow-l.png" />
+				<img class="img-responsive" src="images/arrow-r.png" />
+			</div>
 			<a href=""><img class="" src="http://guestlist.net/uploads/events/2015/04/16757.jpg" alt="read news" width="100%"></a>
+			
 		</div>
 		<h2>events</h2>
 		<h3>Deadrootz Launch party lifesessions at Guestlist</h3>
@@ -148,6 +153,10 @@ include 'header.php';
 <div class="slider-wrapper visible-xs">
 	<div class="lmt-wrapper">
 		<div class="lmt-img-wrapper">
+			<div class="mobile-arrows">
+				<img class="img-responsive" src="images/arrow-l.png" />
+				<img class="img-responsive" src="images/arrow-r.png" />
+			</div>
 			<a href=""><img class="" src="http://guestlist.net/uploads/events/2015/04/16757.jpg" alt="read news" width="100%"></a>
 		</div>
 		<h2>events</h2>
