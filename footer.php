@@ -2,7 +2,7 @@
 	</div>
 
 		<footer>
-			<div class="row footer">
+			<div class="row footer hidden-xs">
 				<div class="col-md-7 col-sm-7">
 					<div class="footer-list">
 						<ul>
@@ -41,7 +41,7 @@
 					</form>
 				</div>
 			</div>
-			<div class="row footer-2-wrapper">
+			<div class="row footer-2-wrapper hidden-xs">
 				<div class="row footer-2">
 				<div class="col-md-12">
 					<span id="footerLogo"></span>
