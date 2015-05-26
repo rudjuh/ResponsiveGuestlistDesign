@@ -53,7 +53,7 @@
 	<div class="header-wrapper">
 		<div class="header">
 			<div class="row">
-				<div class="banner-img">
+				<div class="banner-img hidden-sm">
 					<img src="images/logo.png" width="350px"/>
 				</div>
 				<div class="nav-wrapper">

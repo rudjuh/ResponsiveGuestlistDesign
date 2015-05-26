@@ -24,7 +24,7 @@ var actions = {
                     $('#navbrand').addClass('navbar-wrapper');
                     $('.player').css("margin-top", "0px");
                     $('#account-wrapper').removeClass('account-container-wrapper');
-                    $('.top-menu-wrapper').css("display", "none");
+                    //$('.top-menu-wrapper').css("display", "none");
                     //$('.top-menu-wrapper').css("display", "none");
                 }
 
@@ -33,7 +33,7 @@ var actions = {
                     $('nav').removeClass('navbar-fixed-top');
                     $('#navbrand').removeClass('navbar-wrapper');
                     $('.player').css("margin-top", "-50px");
-                    $('.top-menu-wrapper').css("display", "block");
+                    //$('.top-menu-wrapper').css("display", "block");
                     //$('.top-menu-wrapper').css("display", "block");
                 }
             }, 250);
