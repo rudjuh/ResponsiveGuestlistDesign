@@ -45,7 +45,7 @@
 			<span style="line-height: 29px; float: left;">With</span>
 			<div id="loginFacebook"><a href="/auth/facebook" title="login with Facebook"></a></div>
 			<br class="clr" />
-			<div class="top-menu-toggle">Login <span id="arrowLogin" class="arrowWhite easeInOutAll400 menuArrow"></span></div>
+			<div class="top-menu-toggle">Login <span id="arrowLogin" class="arrowWhite easeInOutAll400"></span></div>
 		</div>
 		
 					
@@ -53,8 +53,10 @@
 	<div class="header-wrapper">
 		<div class="header">
 			<div class="row">
-				<div class="banner-img hidden-sm">
-					<img src="images/logo.png" width="350px"/>
+				<div class="banner-img">
+                    <a href="/" class="banner-link" title="Guestlist :: home">
+					    <img src="images/logo.png" width="350px"/>
+                    </a>
 				</div>
 				<div class="nav-wrapper">
 					<nav class="navbar navbar-default main-menu" role="navigation">

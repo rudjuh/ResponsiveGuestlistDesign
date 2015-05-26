@@ -55,14 +55,14 @@ var actions = {
     },
     toggleHeaderMenu: function() {
         $('.top-menu-wrapper').toggleClass('top-menu-wrapper-toggle', 500);
-        if ($('#arrowLogin').hasClass('menuArrow')) {
-            $('#arrowLogin')
-                .addClass('rotateArrow')
-                .removeClass('menuArrow');
-        } else {
+        if ($('#arrowLogin').hasClass('rotateArrow')) {
             $('#arrowLogin')
                 .addClass('menuArrow')
                 .removeClass('rotateArrow');
+        } else {
+            $('#arrowLogin')
+                .addClass('rotateArrow')
+                .removeClass('menuArrow');
         }
     },
     checkMenuCollapse: function(event) {
@@ -73,7 +73,7 @@ var actions = {
         }
     },
     checkPasswordForm: function(obj) {
-        if ($(obj).val().length >= 13) {
+        if ($(obj).val().length >= 21) {
             $('.passwordForgottenLink').css('visibility', 'hidden');
         } else {
             $('.passwordForgottenLink').css('visibility', 'visible');
