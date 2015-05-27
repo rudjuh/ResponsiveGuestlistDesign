@@ -105,6 +105,14 @@ div#mini_share{
 	.article-info span{
 		
 	}
+		.sidebox-title{
+		font-size: 20px;
+		font-weight: bold;
+		display: block;
+		margin-bottom: 20px;
+		width: 100%;
+		border-bottom: 1px solid #DDDDDD;
+	}
 @media screen and (min-width:700px){
 	.player{
 		background: url('../images/london_bg.jpg') no-repeat fixed center top / cover transparent;
@@ -512,14 +520,6 @@ div#mini_share{
 		opacity: 0.2;
 		background: url("../images/guestlist_icon.png") no-repeat scroll -212px -76px transparent;
     }
-	.sidebox-title{
-		font-size: 20px;
-		font-weight: bold;
-		display: block;
-		margin-bottom: 20px;
-		width: 100%;
-		border-bottom: 1px solid #DDDDDD;
-	}
 
 }
 @media screen and (min-width:992px) {
@@ -814,7 +814,7 @@ div#mini_share {
 		float: left;
 		margin-right: 7px;
 	}
-	.article-item-title{
+	.article-item-title, .first-genre-article{
 		font-size: 15px;
 		color: black;
 		width: 109%;
@@ -822,12 +822,13 @@ div#mini_share {
 		display: table-cell;
 		padding-right: 10px;
 	}
-	.genre-article{
-		width: 160px;
+	.genre-article, .first-genre-article{
+		width: 169px;
 		border-bottom: 3px solid black;
 		padding-bottom: 4px;
 		float: left;
-		margin-right: 5%;
+		margin-right: 2%;
+		margin-left: 3%;
 		margin-bottom: 10px;
 	}
 	.genre-articles a{
@@ -991,6 +992,11 @@ div#mini_share {
 	}
 	.first-article-item {
 		margin-bottom: -20px;
+		position: relative;
+	}
+	.first-genre-article{
+		position: relative;
+		margin-bottom: -20px;
 	}
 	.first-article-item span.article-item-title{
 		display: block;
@@ -1001,7 +1007,7 @@ div#mini_share {
 		line-height: 22px;
 		font-weight: 600;
 		margin-top: -44px;
-		width: 96%;
+		width: 100%;
 		z-index: 1000;
 		position: absolute;
 		height: 44px;
@@ -1016,6 +1022,8 @@ div#mini_share {
 	.first-genre-article .genre-article-img{
 		height: 250px;
 		overflow: hidden;
+		width: 100%;
+		float: none;
 	}
 	.first-genre-article span{
 		display: block;
@@ -1036,17 +1044,46 @@ div#mini_share {
 		width: 100%;
 		padding: 10px 0 10px 0;
 		border-bottom: 1px solid #b6bdbf;
+		display: table;
+		vertical-align: middle;
 	}
 	.article-item-img{
 		width: 70px;
 		float: right;
 		height: 65px;
 		overflow: hidden;
+		margin-right: 20px;
 	}
 	.article-item-title{
 		color: black;
 		font-size: 16px;
+						vertical-align: middle;
+		display: table-cell;
 	}
+	.first-genre-article.genre-article{
+		padding: 0;
+	}
+	.genre-article{
+		width: 100%;
+		padding: 10px 0 10px 0;
+		border-bottom: 1px solid #b6bdbf;
+		display: table;
+		vertical-align: middle;
+	}
+	.genre-article-img{
+		width: 70px;
+		float: left;
+		height: 65px;
+		overflow: hidden;
+		margin-right: -30px;
+	}
+	.genre-article span{
+		color: black;
+		font-size: 16px;
+				vertical-align: middle;
+		display: table-cell;
+	}
+	
 	
 }
 

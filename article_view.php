@@ -30,7 +30,7 @@ include 'header.php';
 						<span class="article-item-title">
 							Newham Generals get grimy on ‘Bang Boy’
 						</span>
-						<span class="next hidden-xs"></span>
+						<span class="next hidden-xs hidden-sm"></span>
 						<br class="clr" />
 					</div>
 				</a>
@@ -42,7 +42,7 @@ include 'header.php';
 						<span class="article-item-title">
 							Newham Generals get grimy on ‘Bang Boy’
 						</span>
-						<span class="next hidden-xs"></span>
+						<span class="next hidden-xs hidden-sm"></span>
 						<br class="clr" />
 					</div>
 				</a>
@@ -54,7 +54,7 @@ include 'header.php';
 						<span class="article-item-title">
 							Newham Generals get grimy on ‘Bang Boy’
 						</span>
-						<span class="next hidden-xs"></span>
+						<span class="next hidden-xs hidden-sm"></span>
 						<br class="clr" />
 					</div>
 				</a>
@@ -66,7 +66,7 @@ include 'header.php';
 						<span class="article-item-title">
 							Newham Generals get grimy on ‘Bang Boy’
 						</span>
-						<span class="next hidden-xs"></span>
+						<span class="next hidden-xs hidden-sm"></span>
 						<br class="clr" />
 					</div>
 				</a>
@@ -78,7 +78,7 @@ include 'header.php';
 						<span class="article-item-title">
 							Newham Generals get grimy on ‘Bang Boy’
 						</span>
-						<span class="next hidden-xs"></span>
+						<span class="next hidden-xs hidden-sm"></span>
 						<br class="clr" />
 					</div>
 				</a>
@@ -89,11 +89,12 @@ include 'header.php';
 		<span class=sidebox-title>POPULAR OTHER ARTICLES</span>
 			<div class="genre-articles">
 				<a href="">
-					<div class="genre-article first-genre-article">
+					<div class="first-genre-article">
 						<div class="genre-article-img">
 							<img src="http://1.static.newspaper.guestlistmedia.net/uploads/articles/87/421_small.jpg" width="100%"/>
 						</div>
 						<span>Soul is in the air</span>
+						<br class="clr" />
 					</div>
 				</a>
 				<a href="">
@@ -102,6 +103,7 @@ include 'header.php';
 							<img src="http://1.static.newspaper.guestlistmedia.net/uploads/articles/87/421_small.jpg" width="100%"/>
 						</div>
 						<span>Soul is in the air</span>
+						<br class="clr" />
 					</div>
 				</a>
 								<a href="">
@@ -110,6 +112,7 @@ include 'header.php';
 							<img src="http://1.static.newspaper.guestlistmedia.net/uploads/articles/87/421_small.jpg" width="100%"/>
 						</div>
 						<span>Soul is in the air</span>
+						<br class="clr" />
 					</div>
 				</a>
 								<a href="">
@@ -118,6 +121,7 @@ include 'header.php';
 							<img src="http://1.static.newspaper.guestlistmedia.net/uploads/articles/87/421_small.jpg" width="100%"/>
 						</div>
 						<span>Soul is in the air</span>
+						<br class="clr" />
 					</div>
 				</a>
 								<a href="">
@@ -126,14 +130,7 @@ include 'header.php';
 							<img src="http://1.static.newspaper.guestlistmedia.net/uploads/articles/87/421_small.jpg" width="100%"/>
 						</div>
 						<span>Soul is in the air</span>
-					</div>
-				</a>
-								<a href="">
-					<div class="genre-article">
-						<div class="genre-article-img">
-							<img src="http://1.static.newspaper.guestlistmedia.net/uploads/articles/87/421_small.jpg" width="100%"/>
-						</div>
-						<span>Soul is in the air</span>
+						<br class="clr" />
 					</div>
 				</a>
 			</div>
