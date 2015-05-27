@@ -3,7 +3,7 @@ include 'header.php';
 ?>
 <div class="row content-container">
 	<div class="row content">
-		<div class="col-md-8 col-sm-12">
+		<div class="col-md-8 col-xs-12">
 			<div class="article-wrapper">
 				<h2>Amsterdam's 24 hour party people have got three more choices</h2>
 				<div class="article-info">
@@ -19,30 +19,54 @@ include 'header.php';
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4 col-sm-12">
+		<div class="col-md-4 col-sm-6">
 			<span class=sidebox-title>LATEST NEWS</span>
 			<div class="article-items">
 				<a href="">
-					<div class="article-item">
+					<div class="first-article-item">
 						<div class="article-item-img">
-							<img src="http://www.guestlist.net/uploads/articles/2015/05/87743.png" width="100%"/>
+							<img src="http://www.guestlist.net/uploads/articles/2015/05/87743.png"  width="100%"/>
 						</div>
 						<span class="article-item-title">
 							Newham Generals get grimy on ‘Bang Boy’
 						</span>
-						<span class="next"></span>
+						<span class="next hidden-xs"></span>
 						<br class="clr" />
 					</div>
 				</a>
 				<a href="">
 					<div class="article-item">
 						<div class="article-item-img">
-							<img src="http://www.guestlist.net/uploads/articles/2015/05/87743.png" width="100%"/>
+							<img src="http://www.guestlist.net/uploads/articles/2015/05/87743.png"  width="100%"/>
 						</div>
 						<span class="article-item-title">
 							Newham Generals get grimy on ‘Bang Boy’
 						</span>
-						<span class="next"></span>
+						<span class="next hidden-xs"></span>
+						<br class="clr" />
+					</div>
+				</a>
+								<a href="">
+					<div class="article-item">
+						<div class="article-item-img">
+							<img src="http://www.guestlist.net/uploads/articles/2015/05/87743.png"  width="100%"/>
+						</div>
+						<span class="article-item-title">
+							Newham Generals get grimy on ‘Bang Boy’
+						</span>
+						<span class="next hidden-xs"></span>
+						<br class="clr" />
+					</div>
+				</a>
+								<a href="">
+					<div class="article-item">
+						<div class="article-item-img">
+							<img src="http://www.guestlist.net/uploads/articles/2015/05/87743.png"  width="100%"/>
+						</div>
+						<span class="article-item-title">
+							Newham Generals get grimy on ‘Bang Boy’
+						</span>
+						<span class="next hidden-xs"></span>
 						<br class="clr" />
 					</div>
 				</a>
@@ -54,39 +78,65 @@ include 'header.php';
 						<span class="article-item-title">
 							Newham Generals get grimy on ‘Bang Boy’
 						</span>
-						<span class="next"></span>
-						<br class="clr" />
-					</div>
-				</a>
-								<a href="">
-					<div class="article-item">
-						<div class="article-item-img">
-							<img src="http://www.guestlist.net/uploads/articles/2015/05/87743.png" width="100%"/>
-						</div>
-						<span class="article-item-title">
-							Newham Generals get grimy on ‘Bang Boy’
-						</span>
-						<span class="next"></span>
-						<br class="clr" />
-					</div>
-				</a>
-								<a href="">
-					<div class="article-item">
-						<div class="article-item-img">
-							<img src="http://www.guestlist.net/uploads/articles/2015/05/87743.png" width="100%"/>
-						</div>
-						<span class="article-item-title">
-							Newham Generals get grimy on ‘Bang Boy’
-						</span>
-						<span class="next"></span>
+						<span class="next hidden-xs"></span>
 						<br class="clr" />
 					</div>
 				</a>
 				
 			</div>
 		</div>
-		<div class="col-md-8 col-sm-4">
-		
+		<div class="col-md-8 col-sm-6 col-xs-12">
+		<span class=sidebox-title>POPULAR OTHER ARTICLES</span>
+			<div class="genre-articles">
+				<a href="">
+					<div class="genre-article first-genre-article">
+						<div class="genre-article-img">
+							<img src="http://1.static.newspaper.guestlistmedia.net/uploads/articles/87/421_small.jpg" width="100%"/>
+						</div>
+						<span>Soul is in the air</span>
+					</div>
+				</a>
+				<a href="">
+					<div class="genre-article">
+						<div class="genre-article-img">
+							<img src="http://1.static.newspaper.guestlistmedia.net/uploads/articles/87/421_small.jpg" width="100%"/>
+						</div>
+						<span>Soul is in the air</span>
+					</div>
+				</a>
+								<a href="">
+					<div class="genre-article">
+						<div class="genre-article-img">
+							<img src="http://1.static.newspaper.guestlistmedia.net/uploads/articles/87/421_small.jpg" width="100%"/>
+						</div>
+						<span>Soul is in the air</span>
+					</div>
+				</a>
+								<a href="">
+					<div class="genre-article">
+						<div class="genre-article-img">
+							<img src="http://1.static.newspaper.guestlistmedia.net/uploads/articles/87/421_small.jpg" width="100%"/>
+						</div>
+						<span>Soul is in the air</span>
+					</div>
+				</a>
+								<a href="">
+					<div class="genre-article">
+						<div class="genre-article-img">
+							<img src="http://1.static.newspaper.guestlistmedia.net/uploads/articles/87/421_small.jpg" width="100%"/>
+						</div>
+						<span>Soul is in the air</span>
+					</div>
+				</a>
+								<a href="">
+					<div class="genre-article">
+						<div class="genre-article-img">
+							<img src="http://1.static.newspaper.guestlistmedia.net/uploads/articles/87/421_small.jpg" width="100%"/>
+						</div>
+						<span>Soul is in the air</span>
+					</div>
+				</a>
+			</div>
 		</div>
 	</div>
 </div>
