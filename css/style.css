@@ -113,6 +113,41 @@ div#mini_share{
 		width: 100%;
 		border-bottom: 1px solid #DDDDDD;
 	}
+	.event-info span{
+		height: 21px;
+		display: block;
+		float: left;
+		margin-right: 10px;
+
+	}
+	.event-info div{
+		float: left;
+		margin-bottom: 20px;
+		margin-right: 5px;
+	}
+	.event-info h3{
+		font-size: 14px;
+		color: #6d6d6d;
+		float: left;
+		line-height: 20px;
+	}
+	span.calender{
+		width: 24px;
+		background: url("../images/guestlist_icon.png") no-repeat scroll -245px -13px transparent;
+
+	}
+	span.clock{
+		width: 24px;
+		background: url("../images/guestlist_icon.png") no-repeat scroll -204px -13px transparent;
+	}
+	span.genre{
+		width: 17px;
+		background: url("../images/guestlist_icon.png") no-repeat scroll -308px -75px transparent;
+	}
+	span.location{
+		width: 18px;
+		background: url("../images/guestlist_icon.png") no-repeat scroll -227px -14px transparent;
+	}
 @media screen and (min-width:700px){
 	.player{
 		background: url('../images/london_bg.jpg') no-repeat fixed center top / cover transparent;
@@ -174,7 +209,7 @@ div#mini_share{
 		font-weight: bold;
 	}
 	.content-container{
-		width: 922px;
+		width: 960px;
 		margin: 0 auto;
 	}
 	.news-menu ul li{
@@ -520,7 +555,88 @@ div#mini_share{
 		opacity: 0.2;
 		background: url("../images/guestlist_icon.png") no-repeat scroll -212px -76px transparent;
     }
-
+	.event-img-view{
+		margin-bottom: 20px;
+	}
+	.ticket-button{
+		padding: 11px;
+		text-transform: uppercase;
+		font-size: 15px;
+		border-radius: 7px;
+		width: 100%;
+		margin-bottom: 10px;
+		font-weight: 600;
+	}
+	.ticket-button.guestlist{
+		background-color: #76408c;
+		color: white;
+	}
+	.ticket-button.normal{
+		background-color: #e1e1e1;
+		color: #76408c;
+	}
+	.ticket-button span:last-child{
+		float: right;
+	}
+	.ticket-button.other{
+		background-color: none;
+		border-radius: 0px;
+		border-bottom: 1px solid #7d7d7d;
+		color: #7d7d7d;
+	}
+	.attending-guestlist{
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+	.attending{
+		color: #929292;
+		font-size: 12px;
+		font-weight: 600;
+		display: inline-block;
+	}
+	.showhide{
+		color: #929292;
+		font-size: 12px;
+		font-weight: 600;
+		float: right;
+		cursor: pointer;
+		margin-top: 2px;
+	}
+	.showhide.sel{
+		color: #783d8f;
+	}
+	.attending-guestlist ul{
+		list-style-type: none;
+	}
+	.attending-guestlist ul li{
+		color: purple;
+		font-size: 20px;
+	}
+	.attending-guestlist ul li span a{
+		color: black;
+		font-weight: 600;
+		font-size: 14px;
+	}
+	.attending-guestlist ul li span a:hover{
+		color: purple;
+		font-weight: 600;
+		font-size: 14px;
+	}
+	.event-view h1{
+		font-size: 30px;
+		font-weight: 600;
+		border-bottom: 1px solid #7d7d7d;
+		margin: 0 0 10px 0;
+		padding-bottom: 15px;
+		color: black;
+	}
+	.event-content{
+	
+	}
+	.event-content span{
+		color: #6d6d6d;
+		font-weight: 600;
+	}
 }
 @media screen and (min-width:992px) {
 div#mini_share {
@@ -1147,6 +1263,9 @@ div#mini_share {
 	.article-img{
 		margin-bottom : 20px;
 	}
+	.article-items{
+		margin-bottom: 40px;
+	}
 }
 @media screen and (max-width:500px) {
 	.lmt-img-wrapper{
@@ -1167,6 +1286,9 @@ div#mini_share {
 	}
 	.first-article-item span.article-item-title{
 		font-size: 14px;
+	}
+	.article-items{
+		margin-bottom: 40px;
 	}
 }
 
