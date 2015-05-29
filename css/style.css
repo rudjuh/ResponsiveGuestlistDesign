@@ -215,6 +215,13 @@ span.location{
 .event-img-view{
 	margin-bottom: 20px;
 }
+.social-buttons{
+		margin-bottom: 20px;
+}
+.social-buttons img{
+	float: left;
+	margin-right: 10px;
+}
 @media screen and (min-width:700px){
 	.player{
 		background: url('../images/london_bg.jpg') no-repeat fixed center top / cover transparent;

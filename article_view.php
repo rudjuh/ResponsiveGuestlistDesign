@@ -7,13 +7,19 @@ include 'header.php';
 			<div class="article-wrapper">
 				<h2>Amsterdam's 24 hour party people have got three more choices</h2>
 				<div class="article-info">
-				<span>house |</span>
-				<span>Wednesday 20th May 2015 |</span>
-				<span><a href="">Jelena</a></span>
+					<span>house |</span>
+					<span>Wednesday 20th May 2015 |</span>
+					<span><a href="">Jelena</a></span>
 				</div>
 				<div class="article-content">
 					<div class="article-img">
 						<img src="http://www.guestlist.net/uploads/articles/2015/05/87788.jpg" alt="" width="100%" />
+					</div>
+					<div class="social-buttons">
+						<img src="images/facebook.png" width="30%"/>
+						<img src="images/twitter.png" width="30%"/>
+						<img src="images/google.png" width="22%"/>
+						<br class="clr" />
 					</div>
 					<p><span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">A city that is already world famous for its clubbing has&nbsp;just granted three venues 24 hour licenses, leaving ravers plenty of time to dance. The mayor of Amsterdam, Eberhard van de Laan, has given out these non-stop party licenses to the venues Radion and Cruquiusgilde, and a new venue set to open in the west of the city.</span></span></p>
 				</div>
