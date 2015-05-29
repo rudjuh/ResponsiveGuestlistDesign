@@ -103,9 +103,9 @@ var init = {
 
         $('.top-menu-toggle').click(actions.toggleHeaderMenu);
 
-        $(document).click(function(event) {
-            actions.checkMenuCollapse(event);
-        });
+       // $(document).click(function(event) {
+          //  actions.checkMenuCollapse(event);
+       // });
 
         $('#formTopBarLogin').on('input', '#passwordLogin', function() {
             actions.checkPasswordForm(this);

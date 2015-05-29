@@ -33,7 +33,7 @@ include 'header.php';
 				</ul>
 			</div>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-5">
 			<div class="event-view">
 				<h1>Jungle Splash</h1>
 				<div class="event-info">
@@ -67,9 +67,17 @@ include 'header.php';
 			</div>
 			
 		</div>
-		<div class="col-md-3">
-			<div class="more-events">
-				<span>
+		<div class="col-md-4">
+			<div class="venue-events">
+				<span>OTHER EVENTS ON THIS VENUE</span>
+				<div class="venue-events-lmt">
+					<div class="venue-event-img">
+						<img src="http://3.static.newspaper.guestlistmedia.net/uploads/events/9/858_medium.jpg" width="100%"/>
+					</div>
+					<h1>GAZ'S ROCKIN..</h1>
+					<span>Wednesday 30,  Nov -0001</span>
+					<h2>The Alibi</h2>
+				</div>
 			</div>
 		</div>
 	</div>
