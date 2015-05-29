@@ -60,5 +60,18 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
     <script src="js/main.js"></script>
+	<script>
+		$(".attend-hide").click(function(){
+			$(".attending-guestlist").slideUp();
+			$( ".attend-show" ).removeClass( "sel" )
+			$( ".attend-hide" ).addClass( "sel" )
+		});
+		$(".attend-show").click(function(){
+			$(".attending-guestlist").slideDown();
+			$( ".attend-hide" ).removeClass( "sel" )
+			$( ".attend-show" ).addClass( "sel" )
+		});
+
+</script>
   </body>
 </html>
