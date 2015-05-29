@@ -61,7 +61,7 @@ include 'header.php';
 					<p>Siobhan Bell, Daktyl & The Ninetys</p>
 					<br>
 					<span>INFO</span>
-					<p>London’s newest, monthly live music show Sound Fidelity launches next Thursday night at the jewel in Peckham’s crown, The Bussey Building. Hosted by Peigh of Peace Love Unity featuring music from London's finest, emerging Soul, Bass, Dubstep & Trap acts, Sound Fidelity introduces a refreshing fusion of urban music and contemporary circus arts. Kicking off at 10pm, the night will be laced with bass, heavy, beats (DJs include Daktyl and Siobhan Bell) and lit with ultra violet lights. Electro RnB duo Pandr Eyez make their South London debut supported by soul songstresses Catherine-Sera & Asia Love Musiq and also Trap siren Shamz Le Roc. Also on the night you can expect living statues, glow-in-the-dark body poppers, resident photographers and more.</p>
+					<p>Londonï¿½s newest, monthly live music show Sound Fidelity launches next Thursday night at the jewel in Peckhamï¿½s crown, The Bussey Building. Hosted by Peigh of Peace Love Unity featuring music from London's finest, emerging Soul, Bass, Dubstep & Trap acts, Sound Fidelity introduces a refreshing fusion of urban music and contemporary circus arts. Kicking off at 10pm, the night will be laced with bass, heavy, beats (DJs include Daktyl and Siobhan Bell) and lit with ultra violet lights. Electro RnB duo Pandr Eyez make their South London debut supported by soul songstresses Catherine-Sera & Asia Love Musiq and also Trap siren Shamz Le Roc. Also on the night you can expect living statues, glow-in-the-dark body poppers, resident photographers and more.</p>
 				</div>
 
 			</div>
@@ -82,7 +82,16 @@ include 'header.php';
 		</div>
 	</div>
 </div>
-
+<div id="booked-success" class="modal fade bs-no-stripe" tabindex="-1" role="dialog" aria-labelledby="noStripeLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content col-padding">
+            <h1 class="no-top">Booked!</h1>
+            <div class="alert alert-success" role="alert">
+                Tickets are booked.
+            </div>
+        </div>
+    </div>
+</div>
 
 <?php
 include 'footer.php';
