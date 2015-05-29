@@ -103,7 +103,7 @@ div#mini_share{
 		margin-bottom : 20px;
 	}
 	.article-info span{
-		
+
 	}
 @media screen and (min-width:700px){
 	.player{
@@ -388,7 +388,7 @@ div#mini_share{
 		color: #000000!important;
 	}
 	.news-flash{
-		
+
 	}
 	.news-flash .active-news-title{
 		font-size: 20px;
@@ -896,7 +896,7 @@ div#mini_share {
 	.readNewsCellLeft{		width: 100%!important;	}
 	.news-mainsection img{	width: 98%!important;	}
 	.readNewsCellLeft div{	width: 100%!important; margin-bottom: 10px;	}
-	
+
 	.news-menu-right-title h3{
 		float: none;
 		text-align: center;
@@ -997,7 +997,7 @@ div#mini_share {
 		background-color: #fcbe17;
 		padding: 10px 3% 10px 3%;
 		word-spacing: -1px;
-		letter-spacing: -1px; 
+		letter-spacing: -1px;
 		line-height: 22px;
 		font-weight: 600;
 		margin-top: -44px;
@@ -1022,7 +1022,7 @@ div#mini_share {
 		background-color: #fcbe17;
 		padding: 10px 3% 10px 3%;
 		word-spacing: -1px;
-		letter-spacing: -1px; 
+		letter-spacing: -1px;
 		line-height: 22px;
 		font-weight: 600;
 		margin-top: -44px;
@@ -1047,7 +1047,7 @@ div#mini_share {
 		color: black;
 		font-size: 16px;
 	}
-	
+
 }
 
 
