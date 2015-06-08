@@ -96,26 +96,26 @@ include 'header.php';
 			
 		</div>
 		<div class="col-md-4 col-sm-5 hidden-sm hidden-xs">
-			<div class="venue-events">
-				<span class="venue-events-title">OTHER EVENTS ON THIS VENUE</span>
-				<div class="venue-events-lmt">
-					<div class="venue-event-img">
+			<div class="more-events">
+				<span class="more-events-title">OTHER EVENTS ON THIS VENUE</span>
+				<div class="more-events-lmt">
+					<div class="more-event-img">
 						<img src="http://3.static.newspaper.guestlistmedia.net/uploads/events/9/858_medium.jpg" width="100%"/>
 					</div>
 					<h1>GAZ'S ROCKIN..</h1>
 					<span>Wednesday 30,</span><span style="color: #773d8e; font-weight: 600;"> -Nov -0001</span>
 					<h2>The Alibi</h2>
 				</div>
-				<div class="venue-events-lmt">
-					<div class="venue-event-img">
+				<div class="more-events-lmt">
+					<div class="more-event-img">
 						<img src="http://3.static.newspaper.guestlistmedia.net/uploads/events/9/858_medium.jpg" width="100%"/>
 					</div>
 					<h1>GAZ'S ROCKIN..</h1>
 					<span>Wednesday 30,</span><span style="color: #773d8e; font-weight: 600;"> -Nov -0001</span>
 					<h2>The Alibi</h2>
 				</div>
-				<div class="venue-events-lmt">
-					<div class="venue-event-img">
+				<div class="more-events-lmt">
+					<div class="more-event-img">
 						<img src="http://3.static.newspaper.guestlistmedia.net/uploads/events/9/858_medium.jpg" width="100%"/>
 					</div>
 					<h1>GAZ'S ROCKIN..</h1>
