@@ -3,6 +3,32 @@ include 'header.php';
 ?>
 <div class="row content-container">
 	<div class="row content">
+		<div class="col-sm-12">
+			<div class="profile-img hidden-md hidden-lg">
+				<img src="http://4.static.newspaper.guestlistmedia.net//uploads/users/0/59_smallsquare.jpg"/>
+				<a class="user-btn" href="" >EDIT PROFILE</a>
+				<a class="user-btn" href="" >EDIT PROFILE</a>
+				<br class="clr" />
+			</div>
+			<div class="user-info hidden-md hidden-lg">
+				<h1>Rudolf Wardanjan</h1>
+				<h2>The Netherlands</h2>
+				<table>
+					<tr>
+						<td><strong>Bio:</strong><br><br></td>
+						<td class="showmore">Chillin<br><br></td>
+					</tr>
+					<tr>
+						<td width="400"><strong>Favourite Artist:</strong><br><br></td>
+						<td width="400">Yellow Claw<br><br></td>
+					</tr>
+					<tr>
+						<td><strong>Who I want to meet:</strong><br><br></td>
+						<td>Nobody<br><br></td>
+					</tr>			
+				</table>
+			</div><br class="clr" />
+		</div>
 		<div class="col-md-8">
 			<div class="top-profile-img hidden-xs hidden-sm">
 				<img src="http://2.static.newspaper.guestlistmedia.net/images/profile/coverImg2.jpg" width="100%"/>
@@ -48,7 +74,7 @@ include 'header.php';
 				<a class="user-btn" href="" >EDIT PROFILE</a>
 				<a class="user-btn" href="" >EDIT PROFILE</a>
 			</div>
-			<div class="more-events col-sm-6 hidden-xs">
+			<div class="more-events col-sm-6 col-md-12 hidden-xs">
 				<span class="more-events-title">OTHER EVENTS ON THIS VENUE</span>
 				<div class="more-events-lmt">
 					<div class="more-event-img">
